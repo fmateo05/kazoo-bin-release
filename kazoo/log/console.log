@@ -1,0 +1,1041 @@
+17:24:23.125 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application lager started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:23.125 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application inet_cidr started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:23.126 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application erlang_localtime started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:23.126 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application jiffy started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:23.126 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_stdlib started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:23.127 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application rfc3339 started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:23.127 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application jsx started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:23.128 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application jesse started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:23.128 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_schemas started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:23.128 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application recon started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:23.129 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:23.129 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application proper started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:23.134 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application gun started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:23.145 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application ranch started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:23.152 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application cowboy started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:23.153 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_proper started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:23.153 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application zucchini started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:23.164 [warning] |0000000000|kazoo_config_init:48(<0.183.0>) file /etc/kazoo/config.ini does not exist or is not accessible
+17:24:23.168 [info] |0000000000|kazoo_config_init:44(<0.183.0>) loaded configs from file /etc/kazoo/core/config.ini
+17:24:23.168 [notice] |0000000000|kazoo_config_init:59(<0.183.0>) loaded settings : [{zone,[{name,z100},{amqp_uri,"amqp://guest:guest@rabbit1-z100.hpbx.lxd:5672"}]},{zone,[{name,z200},{amqp_uri,"amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672"}]},{bigcouch,[{compact_automatically,true},{cookie,sWHHbyUtMvO1zNP},{ip,"10.112.75.72"},{port,15984},{username,"admin"},{password,"adminadmin01"},{admin_port,15986}]},{kazoo_apps,[{host,"kazoo1-z100.hpbx.lxd"},{zone,z100},{cookie,sWHHbyUtMvO1zNP}]},{ecallmgr,[{host,"kazoo1-z100.hpbx.lxd"},{zone,z100},{cookie,sWHHbyUtMvO1zNP}]},{kazoo_apps,[{host,"kazoo1-z200.hpbx.lxd"},{zone,z200},{cookie,sWHHbyUtMvO1zNP}]},{ecallmgr,[{host,"kazoo1-z200.hpbx.lxd"},{zone,z200},{cookie,sWHHbyUtMvO1zNP}]},{log,[{syslog,info},{console,notice},{file,error}]}]
+17:24:23.178 [notice] |0000000000|kazoo_config_init:66(<0.183.0>) setting zone to local
+17:24:23.179 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_config started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:23.179 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_etsmgr started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:24.211 [info] |0000000000|kazoo_bindings_init:18(<0.190.0>) kazoo bindings is ready
+17:24:24.212 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_bindings started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:24.212 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application ranch_proxy_protocol started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:24.213 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application rabbit_common started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:24.230 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application amqp_client started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:24.261 [info] |00000000000|kz_amqp_bootstrap:148(<0.208.0>) no local zone configured, adding default AMQP
+17:24:24.286 [info] |00000000000|kz_amqp_bootstrap:54(<0.208.0>) waiting for first amqp connection...
+17:24:24.423 [warning] |00000000000|kz_amqp_connection:385(<0.209.0>) connection refused to amqp://guest:guest@localhost:5672 (check that the broker is running)
+17:24:24.527 [info] |00000000000|kz_amqp_connection:278(<0.210.0>) successfully connected to 'amqp://guest:guest@rabbit1-z100.hpbx.lxd:5672'
+17:24:24.625 [warning] |00000000000|kz_amqp_connection:385(<0.209.0>) connection refused to amqp://guest:guest@localhost:5672 (check that the broker is running)
+17:24:25.027 [warning] |00000000000|kz_amqp_connection:385(<0.209.0>) connection refused to amqp://guest:guest@localhost:5672 (check that the broker is running)
+17:24:25.744 [info] |00000000000|kz_amqp_connection:278(<0.211.0>) successfully connected to 'amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672'
+17:24:25.830 [warning] |00000000000|kz_amqp_connection:385(<0.209.0>) connection refused to amqp://guest:guest@localhost:5672 (check that the broker is running)
+17:24:27.433 [warning] |00000000000|kz_amqp_connection:385(<0.209.0>) connection refused to amqp://guest:guest@localhost:5672 (check that the broker is running)
+17:24:30.636 [warning] |00000000000|kz_amqp_connection:385(<0.209.0>) connection refused to amqp://guest:guest@localhost:5672 (check that the broker is running)
+17:24:35.639 [warning] |00000000000|kz_amqp_connection:385(<0.209.0>) connection refused to amqp://guest:guest@localhost:5672 (check that the broker is running)
+17:24:40.298 [error] |0000000000|Undefined:Undefined(<0.339.0>) ** Connection attempt from disallowed node 'sup_aa91@kazoo1-z100.hpbx.lxd' ** 
+17:24:54.935 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application lager started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:54.936 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application inet_cidr started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:54.936 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application erlang_localtime started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:54.937 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application jiffy started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:54.937 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_stdlib started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:54.937 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application rfc3339 started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:54.938 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application jsx started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:54.938 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application jesse started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:54.938 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_schemas started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:54.939 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application recon started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:54.939 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:54.939 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application proper started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:54.943 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application gun started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:54.949 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application ranch started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:54.955 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application cowboy started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:54.955 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_proper started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:54.956 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application zucchini started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:54.963 [warning] |0000000000|kazoo_config_init:48(<0.183.0>) file /etc/kazoo/config.ini does not exist or is not accessible
+17:24:54.966 [info] |0000000000|kazoo_config_init:44(<0.183.0>) loaded configs from file /etc/kazoo/core/config.ini
+17:24:54.967 [notice] |0000000000|kazoo_config_init:59(<0.183.0>) loaded settings : [{zone,[{name,z100},{amqp_uri,"amqp://guest:guest@rabbit1-z100.hpbx.lxd:5672"}]},{zone,[{name,z200},{amqp_uri,"amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672"}]},{bigcouch,[{compact_automatically,true},{cookie,sWHHbyUtMvO1zNP},{ip,"10.112.75.72"},{port,15984},{username,"admin"},{password,"adminadmin01"},{admin_port,15986}]},{kazoo_apps,[{host,"kazoo1-z100.hpbx.lxd"},{zone,z100},{cookie,sWHHbyUtMvO1zNP}]},{ecallmgr,[{host,"kazoo1-z100.hpbx.lxd"},{zone,z100},{cookie,sWHHbyUtMvO1zNP}]},{kazoo_apps,[{host,"kazoo1-z200.hpbx.lxd"},{zone,z200},{cookie,sWHHbyUtMvO1zNP}]},{ecallmgr,[{host,"kazoo1-z200.hpbx.lxd"},{zone,z200},{cookie,sWHHbyUtMvO1zNP}]},{log,[{syslog,info},{console,notice},{file,error}]}]
+17:24:54.976 [notice] |0000000000|kazoo_config_init:66(<0.183.0>) setting zone to z100
+17:24:54.977 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_config started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:54.977 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_etsmgr started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:56.007 [info] |0000000000|kazoo_bindings_init:18(<0.190.0>) kazoo bindings is ready
+17:24:56.007 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_bindings started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:56.007 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application ranch_proxy_protocol started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:56.008 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application rabbit_common started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:56.023 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application amqp_client started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:56.065 [info] |00000000000|kz_amqp_bootstrap:54(<0.208.0>) waiting for first amqp connection...
+17:24:56.268 [info] |00000000000|kz_amqp_connection:278(<0.210.0>) successfully connected to 'amqp://guest:guest@rabbit1-z100.hpbx.lxd:5672'
+17:24:57.497 [info] |00000000000|kz_amqp_connection:278(<0.209.0>) successfully connected to 'amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672'
+17:24:58.721 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_amqp started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:24:59.483 [info] |0000000000|kz_globals:341(<0.921.0>) ready to register names
+17:24:59.740 [info] |0000000000|gen_listener:692(<0.921.0>) federator <0.1233.0>(#Ref<0.0.1.4815>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+17:24:59.740 [info] |0000000000|kz_globals:309(<0.921.0>) globals acquired queue name ecallmgr@kazoo1-z100.hpbx.lxd-kz_globals-<0.921.0>-1f26c206
+17:25:00.087 [info] |0000000000|gen_listener:682(<0.921.0>) federator for amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 is consuming, all waiting federators are available!
+17:25:00.711 [info] |0000000000|kazoo_globals_init:18(<0.784.0>) kazoo globals is ready
+17:25:00.725 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_globals started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:00.758 [notice] |0000000000|kazoo_telemetry_leader:122(<0.1249.0>) starting kazoo_telemetry leader
+17:25:00.760 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_telemetry started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:00.811 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_caches started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:00.832 [info] |0000000000|gen_listener:692(<0.1239.0>) federator <0.1259.0>(#Ref<0.0.1.4942>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+17:25:00.833 [info] |0000000000|kz_nodes:775(<0.1239.0>) nodes acquired queue name ecallmgr@kazoo1-z100.hpbx.lxd-kz_nodes-<0.1239.0>-a7f837c1, starting remote heartbeats
+17:25:00.842 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application erlazure started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:00.850 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application eini started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:00.850 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application base16 started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:00.861 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application lhttpc started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:00.861 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application erlcloud started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:00.871 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_attachments started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:00.909 [info] |kazoo_data_cache_lru|kz_cache_lru:40(<0.1291.0>) LRU expiration checks every 10000ms
+17:25:00.919 [info] |kazoo_data_plan_cache_lru|kz_cache_lru:40(<0.1299.0>) LRU expiration checks every 10000ms
+17:25:00.936 [info] |kazoo_data_cache_listener|gen_listener:692(<0.1292.0>) federator <0.1308.0>(#Ref<0.0.1.5065>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+17:25:00.941 [info] |kazoo_data_plan_cache_listener|gen_listener:692(<0.1300.0>) federator <0.1309.0>(#Ref<0.0.1.5082>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+17:25:00.965 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application idna started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:00.970 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application mimerl started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:00.971 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application certifi started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:00.971 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application metrics started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:00.973 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application ssl_verify_fun started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:01.035 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application hackney started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:01.063 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application couchbeam started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:01.073 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_couch started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:01.079 [info] |00000000000|kazoo_data_bootstrap:21(<0.1286.0>) waiting for first connection...
+17:25:01.079 [info] |00000000000|kz_dataconnections:153(<0.1321.0>) adding connection
+17:25:01.088 [info] |0000000000|kz_dataconnection:46(<0.1344.0>) start connection
+17:25:01.088 [info] |0000000000|kz_dataconnection:128(<0.1344.0>) trying to connect kazoo_couch
+17:25:01.206 [info] |0000000000|gen_listener:682(<0.1239.0>) federator for amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 is consuming, all waiting federators are available!
+17:25:01.294 [info] |kazoo_data_cache_listener|gen_listener:682(<0.1292.0>) federator for amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 is consuming, all waiting federators are available!
+17:25:01.296 [info] |kazoo_data_plan_cache_listener|gen_listener:682(<0.1300.0>) federator for amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 is consuming, all waiting federators are available!
+17:25:01.735 [info] |00000000000|kz_dataconnections:74(<0.1286.0>) connected to local: {"couchdb":"Welcome","version":"3.3.1","git_sha":"1fd50b82a","uuid":"ab804498f247580443c01fa2893a5f49","features":["access-ready","partitioned","pluggable-storage-engines","reshard","scheduler"],"vendor":{"name":"The Apache Software Foundation"}}
+17:25:01.786 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database system_data
+17:25:01.951 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database system_config
+17:25:02.040 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database system_schemas
+17:25:02.106 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database system_auth
+17:25:02.153 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database system_media
+17:25:02.197 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database sip_auth
+17:25:02.239 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database accounts
+17:25:02.290 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database ratedeck
+17:25:02.343 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database global_provisioner
+17:25:02.402 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database faxes
+17:25:02.446 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database services
+17:25:02.498 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database offnet
+17:25:02.548 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database anonymous_cdrs
+17:25:02.596 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database port_requests
+17:25:02.641 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database dedicated_ips
+17:25:02.687 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database acdc
+17:25:02.724 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database oauth
+17:25:02.780 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database webhooks
+17:25:02.830 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database token_auth
+17:25:02.883 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database alerts
+17:25:02.939 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database tasks
+17:25:03.014 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database pending_notifications
+17:25:03.167 [error] |undefined|kzs_plan:574(<0.1372.0>) error reloading dataplans {error,not_found}
+17:25:03.620 [error] |00000000000|kz_util:97(<0.1286.0>) stacktrace: 
+17:25:03.620 [error] |00000000000|kz_util:104(<0.1286.0>) st: kz_datamgr:do_revise_docs_from_folder/3 at (226)
+17:25:03.620 [error] |00000000000|kz_util:104(<0.1286.0>) st: kz_datamgr:do_revise_docs_from_folder/3 at (229)
+17:25:03.620 [error] |00000000000|kz_util:104(<0.1286.0>) st: kz_datamgr:init_dbs/1 at (1674)
+17:25:03.620 [error] |00000000000|kz_util:104(<0.1286.0>) st: kazoo_data_bootstrap:start_link/0 at (25)
+17:25:03.620 [error] |00000000000|kz_util:104(<0.1286.0>) st: supervisor:do_start_child/2 at (365)
+17:25:03.620 [error] |00000000000|kz_util:104(<0.1286.0>) st: supervisor:start_children/3 at (348)
+17:25:03.621 [error] |00000000000|kz_util:104(<0.1286.0>) st: supervisor:init_children/2 at (314)
+17:25:03.621 [error] |00000000000|kz_util:104(<0.1286.0>) st: gen_server:init_it/6 at (328)
+17:25:03.805 [info] |00000000000|kzs_plan:572(<0.1286.0>) no dataplans to load
+17:25:03.807 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_data started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:03.807 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_modb started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:03.928 [critical] |0000000000|kz_couch_util:69(<0.1381.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"internal_server_error\"}\n">>
+17:25:03.928 [warning] |0000000000|kz_couch_util:288(<0.1381.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"51">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:25:03 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"2e49e474c0">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:25:03.928 [warning] |0000000000|kz_couch_util:289(<0.1381.0>) server error - body : {"error":"error","reason":"internal_server_error"}
+
+17:25:03.928 [warning] |0000000000|kapps_config:742(<0.1381.0>) unable to update datamgr system config doc: <<"internal_server_error">>
+17:25:03.974 [info] |0000000000|kapps_config:737(<0.1381.0>) attempting to create system_config DB
+17:25:04.072 [critical] |0000000000|kz_couch_util:69(<0.1381.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"internal_server_error\"}\n">>
+17:25:04.072 [warning] |0000000000|kz_couch_util:288(<0.1381.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"51">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:25:03 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"362f04e31c">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:25:04.072 [warning] |0000000000|kz_couch_util:289(<0.1381.0>) server error - body : {"error":"error","reason":"internal_server_error"}
+
+17:25:04.077 [warning] |0000000000|kapps_config:742(<0.1381.0>) unable to update datamgr system config doc: <<"internal_server_error">>
+17:25:04.078 [info] |0000000000|kapps_config:733(<0.1381.0>) saved cat number_manager to db system_config (1-71fd713edbf920b6f9c549533e6c9171)
+17:25:04.143 [warning] |0000000000|kz_couch_db:47(<0.1381.0>) db services already exists
+17:25:04.152 [info] |0000000000|kz_datamgr:1832(<0.1381.0>) creating system database services
+17:25:04.211 [error] |0000000000|kz_datamgr:1328(<0.1381.0>) error getting registered view : not_found
+17:25:04.228 [info] |kazoo_services_cache_lru|kz_cache_lru:40(<0.1401.0>) LRU expiration checks every 10000ms
+17:25:04.233 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_services started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:04.234 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_web started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:04.237 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_transactions started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:04.237 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_documents started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:25:04.247 [info] |kazoo_services_cache_listener|gen_listener:692(<0.1402.0>) federator <0.1414.0>(#Ref<0.0.1.6105>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+17:25:04.285 [info] |kapps_config_cache_lru|kz_cache_lru:40(<0.1425.0>) LRU expiration checks every 10000ms
+17:25:04.286 [info] |kazoo_apps_init|kazoo_apps_init:31(<0.1421.0>) setting kazoo_apps cookie to sWHHbyUtMvO1zNP
+17:25:04.292 [info] |kapps_getby_cache_lru|kz_cache_lru:40(<0.1434.0>) LRU expiration checks every 10000ms
+17:25:04.319 [info] |kapps_getby_cache_listener|gen_listener:692(<0.1435.0>) federator <0.1444.0>(#Ref<0.0.1.6397>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+17:25:04.325 [info] |kapps_config_cache_listener|gen_listener:692(<0.1426.0>) federator <0.1443.0>(#Ref<0.0.1.6409>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+17:25:04.330 [info] |kazoo_apps_init|kz_log:73(<0.1421.0>) handler lager_console_backend now logging at notice (was info)
+17:25:04.332 [info] |kazoo_apps_init|kz_log:73(<0.1421.0>) handler {lager_file_backend,"log/console.log"} now logging at notice (was info)
+17:25:04.333 [notice] |0000000000|lager_file_backend:135(<0.125.0>) Changed loglevel of log/console.log to notice
+17:25:05.819 [error] |00000000000|kz_datamgr:1328(<0.1428.0>) error getting registered view : not_found
+17:25:05.866 [error] |00000000000|kz_datamgr:1328(<0.1428.0>) error getting registered view : not_found
+17:25:05.895 [error] |00000000000|kz_datamgr:1328(<0.1428.0>) error getting registered view : not_found
+17:25:05.929 [error] |00000000000|kz_datamgr:1328(<0.1428.0>) error getting registered view : not_found
+17:25:05.951 [error] |00000000000|kz_datamgr:1328(<0.1428.0>) error getting registered view : not_found
+17:25:05.979 [error] |00000000000|kz_datamgr:1328(<0.1428.0>) error getting registered view : not_found
+17:25:06.002 [error] |00000000000|kz_datamgr:1328(<0.1428.0>) error getting registered view : not_found
+17:25:06.002 [notice] |00000000000|kapps_maintenance:2165(<0.1428.0>) system initialized
+17:25:06.273 [critical] |00000000000|kz_couch_util:69(<0.1428.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"read_failure\"}\n">>
+17:25:06.273 [warning] |00000000000|kz_couch_util:288(<0.1428.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"42">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:25:05 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"c8f779db43">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:25:06.273 [warning] |00000000000|kz_couch_util:289(<0.1428.0>) server error - body : {"error":"error","reason":"read_failure"}
+
+17:25:06.285 [critical] |00000000000|kz_couch_util:69(<0.1428.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"read_failure\"}\n">>
+17:25:06.285 [warning] |00000000000|kz_couch_util:288(<0.1428.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"42">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:25:05 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"8e57188616">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:25:06.285 [warning] |00000000000|kz_couch_util:289(<0.1428.0>) server error - body : {"error":"error","reason":"read_failure"}
+
+17:25:06.405 [critical] |00000000000|kz_couch_util:69(<0.1428.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"read_failure\"}\n">>
+17:25:06.405 [warning] |00000000000|kz_couch_util:288(<0.1428.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"42">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:25:05 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"cc119f5ef9">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:25:06.405 [warning] |00000000000|kz_couch_util:289(<0.1428.0>) server error - body : {"error":"error","reason":"read_failure"}
+
+17:25:06.665 [warning] |0000000000|kz_couch_db:47(<0.1701.0>) db system_auth already exists
+17:25:06.743 [error] |0000000000|kz_datamgr:1328(<0.1701.0>) error getting registered view : not_found
+17:25:06.755 [critical] |0000000000|kz_couch_util:69(<0.1701.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"internal_server_error\"}\n">>
+17:25:06.755 [warning] |0000000000|kz_couch_util:288(<0.1701.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"51">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:25:06 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"ad1d05b327">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:25:06.755 [warning] |0000000000|kz_couch_util:289(<0.1701.0>) server error - body : {"error":"error","reason":"internal_server_error"}
+
+17:25:06.756 [error] |0000000000|kz_util:97(<0.1701.0>) stacktrace: 
+17:25:06.760 [error] |0000000000|kz_util:104(<0.1701.0>) st: kz_datamgr:do_revise_docs_from_folder/3 at (226)
+17:25:06.760 [error] |0000000000|kz_util:104(<0.1701.0>) st: kazoo_auth_app:start/2 at (22)
+17:25:06.760 [error] |0000000000|kz_util:104(<0.1701.0>) st: application_master:start_it_old/4 at (273)
+17:25:06.779 [critical] |0000000000|kz_couch_util:69(<0.1701.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"internal_server_error\"}\n">>
+17:25:06.780 [warning] |0000000000|kz_couch_util:288(<0.1701.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"51">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:25:06 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"67777e2f94">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:25:06.780 [warning] |0000000000|kz_couch_util:289(<0.1701.0>) server error - body : {"error":"error","reason":"internal_server_error"}
+
+17:25:06.780 [error] |0000000000|kz_util:97(<0.1701.0>) stacktrace: 
+17:25:06.780 [error] |0000000000|kz_util:104(<0.1701.0>) st: kz_datamgr:do_revise_docs_from_folder/3 at (226)
+17:25:06.780 [error] |0000000000|kz_util:104(<0.1701.0>) st: kazoo_auth_app:start/2 at (22)
+17:25:06.780 [error] |0000000000|kz_util:104(<0.1701.0>) st: application_master:start_it_old/4 at (273)
+17:25:06.803 [critical] |0000000000|kz_couch_util:69(<0.1701.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"internal_server_error\"}\n">>
+17:25:06.803 [warning] |0000000000|kz_couch_util:288(<0.1701.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"51">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:25:06 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"519138c3e0">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:25:06.803 [warning] |0000000000|kz_couch_util:289(<0.1701.0>) server error - body : {"error":"error","reason":"internal_server_error"}
+
+17:25:06.803 [error] |0000000000|kz_util:97(<0.1701.0>) stacktrace: 
+17:25:06.803 [error] |0000000000|kz_util:104(<0.1701.0>) st: kz_datamgr:do_revise_docs_from_folder/3 at (226)
+17:25:06.803 [error] |0000000000|kz_util:104(<0.1701.0>) st: kazoo_auth_app:start/2 at (22)
+17:25:06.803 [error] |0000000000|kz_util:104(<0.1701.0>) st: application_master:start_it_old/4 at (273)
+17:25:06.822 [critical] |0000000000|kz_couch_util:69(<0.1701.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"internal_server_error\"}\n">>
+17:25:06.822 [warning] |0000000000|kz_couch_util:288(<0.1701.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"51">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:25:06 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"2e2000b801">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:25:06.822 [warning] |0000000000|kz_couch_util:289(<0.1701.0>) server error - body : {"error":"error","reason":"internal_server_error"}
+
+17:25:06.822 [error] |0000000000|kz_util:97(<0.1701.0>) stacktrace: 
+17:25:06.822 [error] |0000000000|kz_util:104(<0.1701.0>) st: kz_datamgr:do_revise_docs_from_folder/3 at (226)
+17:25:06.822 [error] |0000000000|kz_util:104(<0.1701.0>) st: kazoo_auth_app:start/2 at (22)
+17:25:06.822 [error] |0000000000|kz_util:104(<0.1701.0>) st: application_master:start_it_old/4 at (273)
+17:25:06.849 [critical] |0000000000|kz_couch_util:69(<0.1701.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"internal_server_error\"}\n">>
+17:25:06.849 [warning] |0000000000|kz_couch_util:288(<0.1701.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"51">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:25:06 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"5a700f5a20">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:25:06.849 [warning] |0000000000|kz_couch_util:289(<0.1701.0>) server error - body : {"error":"error","reason":"internal_server_error"}
+
+17:25:06.849 [error] |0000000000|kz_util:97(<0.1701.0>) stacktrace: 
+17:25:06.849 [error] |0000000000|kz_util:104(<0.1701.0>) st: kz_datamgr:do_revise_docs_from_folder/3 at (226)
+17:25:06.849 [error] |0000000000|kz_util:104(<0.1701.0>) st: kazoo_auth_app:start/2 at (22)
+17:25:06.849 [error] |0000000000|kz_util:104(<0.1701.0>) st: application_master:start_it_old/4 at (273)
+17:25:06.869 [critical] |0000000000|kz_couch_util:69(<0.1701.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"read_failure\"}\n">>
+17:25:06.869 [warning] |0000000000|kz_couch_util:288(<0.1701.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"42">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:25:06 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"00240c4708">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:25:06.869 [warning] |0000000000|kz_couch_util:289(<0.1701.0>) server error - body : {"error":"error","reason":"read_failure"}
+
+17:25:06.869 [warning] |0000000000|kapps_config:742(<0.1701.0>) unable to update auth system config doc: <<"read_failure">>
+17:25:06.942 [critical] |0000000000|kz_couch_util:69(<0.1731.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"internal_server_error\"}\n">>
+17:25:06.942 [warning] |0000000000|kz_couch_util:288(<0.1731.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"51">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:25:06 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"ed98651bd5">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:25:06.942 [warning] |0000000000|kz_couch_util:289(<0.1731.0>) server error - body : {"error":"error","reason":"internal_server_error"}
+
+17:25:06.945 [warning] |0000000000|kapps_config:742(<0.1731.0>) unable to update auth system config doc: <<"internal_server_error">>
+17:25:07.248 [critical] |0000000000|kz_couch_util:69(<0.1731.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"internal_server_error\"}\n">>
+17:25:07.248 [warning] |0000000000|kz_couch_util:288(<0.1731.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"51">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:25:06 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"b9e13219d2">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:25:07.248 [warning] |0000000000|kz_couch_util:289(<0.1731.0>) server error - body : {"error":"error","reason":"internal_server_error"}
+
+17:25:07.253 [error] |0000000000|Undefined:Undefined(<0.1731.0>) Supervisor kazoo_auth_sup had child kz_auth_init started with kz_auth_init:start_link() at undefined exit with reason {'EXIT',{{badmatch,{error,<<"internal_server_error">>}},[{kz_auth_keys,public_key,1,[{file,"src/kz_auth_keys.erl"},{line,245}]},{kz_auth_init,start_link,0,[{file,"src/kz_auth_init.erl"},{line,18}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,365}]},{supervisor,start_children,3,[{file,"supervisor.erl"},{line,348}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,314}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"p..."},...]}]}} in context start_error
+17:25:07.269 [error] |0000000000|Undefined:Undefined(<0.1700.0>) CRASH REPORT Process <0.1700.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,kz_auth_init,{'EXIT',{{badmatch,{error,<<"internal_server_error">>}},[{kz_auth_keys,public_key,1,[{file,"src/kz_auth_keys.erl"},{line,245}]},{kz_auth_init,start_link,0,[{file,"src/kz_auth_init.erl"},{line,18}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,365}]},{supervisor,start_children,3,[{file,"supervisor.erl"},{line,348}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,314}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,...}]},...]}}}},...} in application_master:init/4 line 134
+17:25:07.280 [error] |00000000000|kapps_controller:107(<0.1428.0>) ecallmgr could not start: {kazoo_auth,{{shutdown,{failed_to_start_child,kz_auth_init,{'EXIT',{{badmatch,{error,<<"internal_server_error">>}},[{kz_auth_keys,public_key,1,[{file,"src/kz_auth_keys.erl"},{line,245}]},{kz_auth_init,start_link,0,[{file,"src/kz_auth_init.erl"},{line,18}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,365}]},{supervisor,start_children,3,[{file,"supervisor.erl"},{line,348}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,314}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}}},{kazoo_auth_app,start,[normal,[]]}}}
+17:25:07.280 [notice] |00000000000|kapps_controller:195(<0.1428.0>) auto-started kapps []
+17:28:55.069 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application lager started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:55.069 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application inet_cidr started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:55.069 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application erlang_localtime started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:55.070 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application jiffy started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:55.070 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_stdlib started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:55.071 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application rfc3339 started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:55.071 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application jsx started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:55.071 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application jesse started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:55.072 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_schemas started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:55.072 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application recon started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:55.072 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:55.073 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application proper started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:55.077 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application gun started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:55.083 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application ranch started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:55.089 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application cowboy started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:55.089 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_proper started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:55.090 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application zucchini started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:55.099 [warning] |0000000000|kazoo_config_init:48(<0.183.0>) file /etc/kazoo/config.ini does not exist or is not accessible
+17:28:55.103 [info] |0000000000|kazoo_config_init:44(<0.183.0>) loaded configs from file /etc/kazoo/core/config.ini
+17:28:55.103 [notice] |0000000000|kazoo_config_init:59(<0.183.0>) loaded settings : [{zone,[{name,z100},{amqp_uri,"amqp://guest:guest@rabbit1-z100.hpbx.lxd:5672"}]},{zone,[{name,z200},{amqp_uri,"amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672"}]},{bigcouch,[{compact_automatically,true},{cookie,sWHHbyUtMvO1zNP},{ip,"10.112.75.72"},{port,15984},{username,"admin"},{password,"adminadmin01"},{admin_port,15986}]},{kazoo_apps,[{host,"kazoo1-z100.hpbx.lxd"},{zone,z100},{cookie,sWHHbyUtMvO1zNP}]},{ecallmgr,[{host,"kazoo1-z100.hpbx.lxd"},{zone,z100},{cookie,sWHHbyUtMvO1zNP}]},{kazoo_apps,[{host,"kazoo1-z200.hpbx.lxd"},{zone,z200},{cookie,sWHHbyUtMvO1zNP}]},{ecallmgr,[{host,"kazoo1-z200.hpbx.lxd"},{zone,z200},{cookie,sWHHbyUtMvO1zNP}]},{log,[{syslog,info},{console,notice},{file,error}]}]
+17:28:55.113 [notice] |0000000000|kazoo_config_init:66(<0.183.0>) setting zone to z100
+17:28:55.114 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_config started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:55.114 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_etsmgr started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:56.138 [info] |0000000000|kazoo_bindings_init:18(<0.190.0>) kazoo bindings is ready
+17:28:56.138 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_bindings started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:56.138 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application ranch_proxy_protocol started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:56.138 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application rabbit_common started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:56.154 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application amqp_client started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:56.207 [info] |00000000000|kz_amqp_bootstrap:54(<0.208.0>) waiting for first amqp connection...
+17:28:56.428 [info] |00000000000|kz_amqp_connection:278(<0.210.0>) successfully connected to 'amqp://guest:guest@rabbit1-z100.hpbx.lxd:5672'
+17:28:57.650 [info] |00000000000|kz_amqp_connection:278(<0.209.0>) successfully connected to 'amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672'
+17:28:58.867 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_amqp started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:28:59.565 [info] |0000000000|kz_globals:341(<0.919.0>) ready to register names
+17:28:59.887 [info] |0000000000|gen_listener:692(<0.919.0>) federator <0.1233.0>(#Ref<0.0.1.4810>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+17:28:59.887 [info] |0000000000|kz_globals:309(<0.919.0>) globals acquired queue name ecallmgr@kazoo1-z100.hpbx.lxd-kz_globals-<0.919.0>-4dbf1083
+17:29:00.236 [info] |0000000000|gen_listener:682(<0.919.0>) federator for amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 is consuming, all waiting federators are available!
+17:29:00.847 [info] |0000000000|kazoo_globals_init:18(<0.784.0>) kazoo globals is ready
+17:29:00.863 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_globals started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:00.905 [notice] |0000000000|kazoo_telemetry_leader:122(<0.1249.0>) starting kazoo_telemetry leader
+17:29:00.906 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_telemetry started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:00.944 [info] |0000000000|gen_listener:692(<0.1239.0>) federator <0.1254.0>(#Ref<0.0.1.4924>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+17:29:00.944 [info] |0000000000|kz_nodes:775(<0.1239.0>) nodes acquired queue name ecallmgr@kazoo1-z100.hpbx.lxd-kz_nodes-<0.1239.0>-8a7e379a, starting remote heartbeats
+17:29:00.952 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_caches started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:00.957 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application erlazure started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:00.962 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application eini started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:00.962 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application base16 started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:00.971 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application lhttpc started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:00.972 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application erlcloud started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:00.981 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_attachments started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:01.009 [info] |kazoo_data_cache_lru|kz_cache_lru:40(<0.1291.0>) LRU expiration checks every 10000ms
+17:29:01.017 [info] |kazoo_data_plan_cache_lru|kz_cache_lru:40(<0.1299.0>) LRU expiration checks every 10000ms
+17:29:01.036 [info] |kazoo_data_cache_listener|gen_listener:692(<0.1292.0>) federator <0.1308.0>(#Ref<0.0.1.5053>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+17:29:01.043 [info] |kazoo_data_plan_cache_listener|gen_listener:692(<0.1300.0>) federator <0.1309.0>(#Ref<0.0.1.5076>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+17:29:01.063 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application idna started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:01.064 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application mimerl started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:01.064 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application certifi started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:01.065 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application metrics started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:01.065 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application ssl_verify_fun started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:01.083 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application hackney started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:01.109 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application couchbeam started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:01.119 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_couch started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:01.122 [info] |00000000000|kazoo_data_bootstrap:21(<0.1286.0>) waiting for first connection...
+17:29:01.122 [info] |00000000000|kz_dataconnections:153(<0.1321.0>) adding connection
+17:29:01.130 [info] |0000000000|kz_dataconnection:46(<0.1344.0>) start connection
+17:29:01.130 [info] |0000000000|kz_dataconnection:128(<0.1344.0>) trying to connect kazoo_couch
+17:29:01.301 [info] |0000000000|gen_listener:682(<0.1239.0>) federator for amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 is consuming, all waiting federators are available!
+17:29:01.391 [info] |kazoo_data_cache_listener|gen_listener:682(<0.1292.0>) federator for amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 is consuming, all waiting federators are available!
+17:29:01.392 [info] |kazoo_data_plan_cache_listener|gen_listener:682(<0.1300.0>) federator for amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 is consuming, all waiting federators are available!
+17:29:02.166 [info] |00000000000|kz_dataconnections:74(<0.1286.0>) connected to local: {"couchdb":"Welcome","version":"3.3.1","git_sha":"1fd50b82a","uuid":"ab804498f247580443c01fa2893a5f49","features":["access-ready","partitioned","pluggable-storage-engines","reshard","scheduler"],"vendor":{"name":"The Apache Software Foundation"}}
+17:29:02.213 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database system_data
+17:29:02.331 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database system_config
+17:29:02.463 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database system_schemas
+17:29:02.521 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database system_auth
+17:29:02.558 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database system_media
+17:29:02.600 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database sip_auth
+17:29:02.638 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database accounts
+17:29:02.686 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database ratedeck
+17:29:02.723 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database global_provisioner
+17:29:02.770 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database faxes
+17:29:02.808 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database services
+17:29:02.855 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database offnet
+17:29:02.891 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database anonymous_cdrs
+17:29:02.930 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database port_requests
+17:29:02.973 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database dedicated_ips
+17:29:03.015 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database acdc
+17:29:03.050 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database oauth
+17:29:03.088 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database webhooks
+17:29:03.130 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database token_auth
+17:29:03.185 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database alerts
+17:29:03.236 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database tasks
+17:29:03.288 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database pending_notifications
+17:29:03.438 [error] |undefined|kzs_plan:574(<0.1372.0>) error reloading dataplans {error,not_found}
+17:29:03.550 [error] |00000000000|kz_util:97(<0.1286.0>) stacktrace: 
+17:29:03.550 [error] |00000000000|kz_util:104(<0.1286.0>) st: kz_datamgr:do_revise_docs_from_folder/3 at (226)
+17:29:03.550 [error] |00000000000|kz_util:104(<0.1286.0>) st: kz_datamgr:do_revise_docs_from_folder/3 at (229)
+17:29:03.550 [error] |00000000000|kz_util:104(<0.1286.0>) st: kz_datamgr:init_dbs/1 at (1674)
+17:29:03.550 [error] |00000000000|kz_util:104(<0.1286.0>) st: kazoo_data_bootstrap:start_link/0 at (25)
+17:29:03.550 [error] |00000000000|kz_util:104(<0.1286.0>) st: supervisor:do_start_child/2 at (365)
+17:29:03.550 [error] |00000000000|kz_util:104(<0.1286.0>) st: supervisor:start_children/3 at (348)
+17:29:03.550 [error] |00000000000|kz_util:104(<0.1286.0>) st: supervisor:init_children/2 at (314)
+17:29:03.550 [error] |00000000000|kz_util:104(<0.1286.0>) st: gen_server:init_it/6 at (328)
+17:29:03.707 [info] |00000000000|kzs_plan:572(<0.1286.0>) no dataplans to load
+17:29:03.709 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_data started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:03.710 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_modb started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:03.823 [critical] |0000000000|kz_couch_util:69(<0.1380.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"internal_server_error\"}\n">>
+17:29:03.823 [warning] |0000000000|kz_couch_util:288(<0.1380.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"51">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:29:03 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"dcd5aa84a4">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:29:03.823 [warning] |0000000000|kz_couch_util:289(<0.1380.0>) server error - body : {"error":"error","reason":"internal_server_error"}
+
+17:29:03.825 [warning] |0000000000|kapps_config:742(<0.1380.0>) unable to update datamgr system config doc: <<"internal_server_error">>
+17:29:03.927 [info] |0000000000|kapps_config:737(<0.1380.0>) attempting to create system_config DB
+17:29:04.024 [critical] |0000000000|kz_couch_util:69(<0.1380.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"internal_server_error\"}\n">>
+17:29:04.024 [warning] |0000000000|kz_couch_util:288(<0.1380.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"51">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:29:03 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"64782771ca">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:29:04.024 [warning] |0000000000|kz_couch_util:289(<0.1380.0>) server error - body : {"error":"error","reason":"internal_server_error"}
+
+17:29:04.024 [warning] |0000000000|kapps_config:742(<0.1380.0>) unable to update datamgr system config doc: <<"internal_server_error">>
+17:29:04.025 [info] |0000000000|kapps_config:733(<0.1380.0>) saved cat number_manager to db system_config (1-0af16bb9888b5472a0b9b12a75ae69ad)
+17:29:04.062 [warning] |0000000000|kz_couch_db:47(<0.1380.0>) db services already exists
+17:29:04.069 [info] |0000000000|kz_datamgr:1832(<0.1380.0>) creating system database services
+17:29:04.133 [error] |0000000000|kz_datamgr:1328(<0.1380.0>) error getting registered view : not_found
+17:29:04.157 [info] |kazoo_services_cache_lru|kz_cache_lru:40(<0.1401.0>) LRU expiration checks every 10000ms
+17:29:04.162 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_services started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:04.163 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_web started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:04.165 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_transactions started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:04.166 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_documents started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+17:29:04.173 [info] |kazoo_services_cache_listener|gen_listener:692(<0.1402.0>) federator <0.1414.0>(#Ref<0.0.1.6097>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+17:29:04.207 [info] |kapps_config_cache_lru|kz_cache_lru:40(<0.1425.0>) LRU expiration checks every 10000ms
+17:29:04.207 [info] |kazoo_apps_init|kazoo_apps_init:31(<0.1421.0>) setting kazoo_apps cookie to sWHHbyUtMvO1zNP
+17:29:04.212 [info] |kapps_getby_cache_lru|kz_cache_lru:40(<0.1434.0>) LRU expiration checks every 10000ms
+17:29:04.231 [info] |kapps_getby_cache_listener|gen_listener:692(<0.1435.0>) federator <0.1444.0>(#Ref<0.0.1.6390>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+17:29:04.236 [info] |kapps_config_cache_listener|gen_listener:692(<0.1426.0>) federator <0.1443.0>(#Ref<0.0.1.6402>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+17:29:04.241 [info] |kazoo_apps_init|kz_log:73(<0.1421.0>) handler lager_console_backend now logging at notice (was info)
+17:29:04.241 [info] |kazoo_apps_init|kz_log:73(<0.1421.0>) handler {lager_file_backend,"log/console.log"} now logging at notice (was info)
+17:29:04.242 [notice] |0000000000|lager_file_backend:135(<0.125.0>) Changed loglevel of log/console.log to notice
+17:29:04.280 [critical] |0000000000|kz_couch_util:69(<0.1456.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"internal_server_error\"}\n">>
+17:29:04.280 [warning] |0000000000|kz_couch_util:288(<0.1456.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"51">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:29:03 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"19cbcf7cf5">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:29:04.280 [warning] |0000000000|kz_couch_util:289(<0.1456.0>) server error - body : {"error":"error","reason":"internal_server_error"}
+
+17:29:04.284 [warning] |0000000000|kapps_config:742(<0.1456.0>) unable to update epmd system config doc: <<"internal_server_error">>
+17:29:05.638 [error] |00000000000|kz_datamgr:1328(<0.1428.0>) error getting registered view : not_found
+17:29:05.695 [error] |00000000000|kz_datamgr:1328(<0.1428.0>) error getting registered view : not_found
+17:29:05.720 [error] |00000000000|kz_datamgr:1328(<0.1428.0>) error getting registered view : not_found
+17:29:05.751 [error] |00000000000|kz_datamgr:1328(<0.1428.0>) error getting registered view : not_found
+17:29:05.767 [warning] |00000000000|kz_couch_db:47(<0.1428.0>) db pending_notifications already exists
+17:29:05.781 [error] |00000000000|kz_datamgr:1328(<0.1428.0>) error getting registered view : not_found
+17:29:05.836 [error] |00000000000|kz_datamgr:1328(<0.1428.0>) error getting registered view : not_found
+17:29:05.861 [error] |00000000000|kz_datamgr:1328(<0.1428.0>) error getting registered view : not_found
+17:29:05.861 [notice] |00000000000|kapps_maintenance:2165(<0.1428.0>) system initialized
+17:29:06.063 [critical] |00000000000|kz_couch_util:69(<0.1428.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"read_failure\"}\n">>
+17:29:06.063 [warning] |00000000000|kz_couch_util:288(<0.1428.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"42">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:29:05 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"3a2b51cb89">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:29:06.063 [warning] |00000000000|kz_couch_util:289(<0.1428.0>) server error - body : {"error":"error","reason":"read_failure"}
+
+17:29:06.074 [critical] |00000000000|kz_couch_util:69(<0.1428.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"read_failure\"}\n">>
+17:29:06.074 [warning] |00000000000|kz_couch_util:288(<0.1428.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"42">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:29:05 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"6c562ee0be">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:29:06.074 [warning] |00000000000|kz_couch_util:289(<0.1428.0>) server error - body : {"error":"error","reason":"read_failure"}
+
+17:29:06.166 [critical] |00000000000|kz_couch_util:69(<0.1428.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"read_failure\"}\n">>
+17:29:06.166 [warning] |00000000000|kz_couch_util:288(<0.1428.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"42">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:29:05 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"08161b06bc">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:29:06.166 [warning] |00000000000|kz_couch_util:289(<0.1428.0>) server error - body : {"error":"error","reason":"read_failure"}
+
+17:29:06.449 [warning] |0000000000|kz_couch_db:47(<0.1717.0>) db system_auth already exists
+17:29:06.527 [error] |0000000000|kz_datamgr:1328(<0.1717.0>) error getting registered view : not_found
+17:29:06.550 [critical] |0000000000|kz_couch_util:69(<0.1717.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"internal_server_error\"}\n">>
+17:29:06.550 [warning] |0000000000|kz_couch_util:288(<0.1717.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"51">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:29:06 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"378029839c">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:29:06.550 [warning] |0000000000|kz_couch_util:289(<0.1717.0>) server error - body : {"error":"error","reason":"internal_server_error"}
+
+17:29:06.550 [error] |0000000000|kz_util:97(<0.1717.0>) stacktrace: 
+17:29:06.551 [error] |0000000000|kz_util:104(<0.1717.0>) st: kz_datamgr:do_revise_docs_from_folder/3 at (226)
+17:29:06.551 [error] |0000000000|kz_util:104(<0.1717.0>) st: kazoo_auth_app:start/2 at (22)
+17:29:06.551 [error] |0000000000|kz_util:104(<0.1717.0>) st: application_master:start_it_old/4 at (273)
+17:29:06.581 [critical] |0000000000|kz_couch_util:69(<0.1717.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"internal_server_error\"}\n">>
+17:29:06.581 [warning] |0000000000|kz_couch_util:288(<0.1717.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"51">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:29:06 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"44eed9811a">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:29:06.581 [warning] |0000000000|kz_couch_util:289(<0.1717.0>) server error - body : {"error":"error","reason":"internal_server_error"}
+
+17:29:06.581 [error] |0000000000|kz_util:97(<0.1717.0>) stacktrace: 
+17:29:06.581 [error] |0000000000|kz_util:104(<0.1717.0>) st: kz_datamgr:do_revise_docs_from_folder/3 at (226)
+17:29:06.582 [error] |0000000000|kz_util:104(<0.1717.0>) st: kazoo_auth_app:start/2 at (22)
+17:29:06.582 [error] |0000000000|kz_util:104(<0.1717.0>) st: application_master:start_it_old/4 at (273)
+17:29:06.622 [critical] |0000000000|kz_couch_util:69(<0.1717.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"internal_server_error\"}\n">>
+17:29:06.622 [warning] |0000000000|kz_couch_util:288(<0.1717.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"51">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:29:06 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"0538e053a2">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:29:06.623 [warning] |0000000000|kz_couch_util:289(<0.1717.0>) server error - body : {"error":"error","reason":"internal_server_error"}
+
+17:29:06.623 [error] |0000000000|kz_util:97(<0.1717.0>) stacktrace: 
+17:29:06.623 [error] |0000000000|kz_util:104(<0.1717.0>) st: kz_datamgr:do_revise_docs_from_folder/3 at (226)
+17:29:06.623 [error] |0000000000|kz_util:104(<0.1717.0>) st: kazoo_auth_app:start/2 at (22)
+17:29:06.623 [error] |0000000000|kz_util:104(<0.1717.0>) st: application_master:start_it_old/4 at (273)
+17:29:06.643 [critical] |0000000000|kz_couch_util:69(<0.1717.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"internal_server_error\"}\n">>
+17:29:06.643 [warning] |0000000000|kz_couch_util:288(<0.1717.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"51">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:29:06 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"6a842de1ac">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:29:06.643 [warning] |0000000000|kz_couch_util:289(<0.1717.0>) server error - body : {"error":"error","reason":"internal_server_error"}
+
+17:29:06.646 [error] |0000000000|kz_util:97(<0.1717.0>) stacktrace: 
+17:29:06.646 [error] |0000000000|kz_util:104(<0.1717.0>) st: kz_datamgr:do_revise_docs_from_folder/3 at (226)
+17:29:06.647 [error] |0000000000|kz_util:104(<0.1717.0>) st: kazoo_auth_app:start/2 at (22)
+17:29:06.647 [error] |0000000000|kz_util:104(<0.1717.0>) st: application_master:start_it_old/4 at (273)
+17:29:06.669 [critical] |0000000000|kz_couch_util:69(<0.1717.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"internal_server_error\"}\n">>
+17:29:06.669 [warning] |0000000000|kz_couch_util:288(<0.1717.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"51">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:29:06 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"7c2439cb3c">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:29:06.669 [warning] |0000000000|kz_couch_util:289(<0.1717.0>) server error - body : {"error":"error","reason":"internal_server_error"}
+
+17:29:06.669 [error] |0000000000|kz_util:97(<0.1717.0>) stacktrace: 
+17:29:06.669 [error] |0000000000|kz_util:104(<0.1717.0>) st: kz_datamgr:do_revise_docs_from_folder/3 at (226)
+17:29:06.669 [error] |0000000000|kz_util:104(<0.1717.0>) st: kazoo_auth_app:start/2 at (22)
+17:29:06.669 [error] |0000000000|kz_util:104(<0.1717.0>) st: application_master:start_it_old/4 at (273)
+17:29:06.682 [critical] |0000000000|kz_couch_util:69(<0.1717.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"read_failure\"}\n">>
+17:29:06.683 [warning] |0000000000|kz_couch_util:288(<0.1717.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"42">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:29:06 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"44b54a5fea">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:29:06.683 [warning] |0000000000|kz_couch_util:289(<0.1717.0>) server error - body : {"error":"error","reason":"read_failure"}
+
+17:29:06.683 [warning] |0000000000|kapps_config:742(<0.1717.0>) unable to update auth system config doc: <<"read_failure">>
+17:29:06.751 [critical] |0000000000|kz_couch_util:69(<0.1746.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"internal_server_error\"}\n">>
+17:29:06.751 [warning] |0000000000|kz_couch_util:288(<0.1746.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"51">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:29:06 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"4bcb927e0c">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:29:06.751 [warning] |0000000000|kz_couch_util:289(<0.1746.0>) server error - body : {"error":"error","reason":"internal_server_error"}
+
+17:29:06.757 [warning] |0000000000|kapps_config:742(<0.1746.0>) unable to update auth system config doc: <<"internal_server_error">>
+17:29:07.065 [critical] |0000000000|kz_couch_util:69(<0.1746.0>) response code 500 not expected : <<"{\"error\":\"error\",\"reason\":\"internal_server_error\"}\n">>
+17:29:07.065 [warning] |0000000000|kz_couch_util:288(<0.1746.0>) server error - headers: [{<<"Cache-Control">>,<<"must-revalidate">>},
+                         {<<"Content-Length">>,<<"51">>},
+                         {<<"Content-Type">>,<<"application/json">>},
+                         {<<"Date">>,<<"Thu, 13 Apr 2023 17:29:06 GMT">>},
+                         {<<"Server">>,<<"CouchDB/3.3.1 (Erlang OTP/24)">>},
+                         {<<"X-Couch-Request-ID">>,<<"f1a51e4335">>},
+                         {<<"X-CouchDB-Body-Time">>,<<"0">>}]
+17:29:07.065 [warning] |0000000000|kz_couch_util:289(<0.1746.0>) server error - body : {"error":"error","reason":"internal_server_error"}
+
+17:29:07.069 [error] |0000000000|Undefined:Undefined(<0.1746.0>) Supervisor kazoo_auth_sup had child kz_auth_init started with kz_auth_init:start_link() at undefined exit with reason {'EXIT',{{badmatch,{error,<<"internal_server_error">>}},[{kz_auth_keys,public_key,1,[{file,"src/kz_auth_keys.erl"},{line,245}]},{kz_auth_init,start_link,0,[{file,"src/kz_auth_init.erl"},{line,18}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,365}]},{supervisor,start_children,3,[{file,"supervisor.erl"},{line,348}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,314}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"p..."},...]}]}} in context start_error
+17:29:07.084 [error] |0000000000|Undefined:Undefined(<0.1716.0>) CRASH REPORT Process <0.1716.0> with 0 neighbours exited with reason: {{shutdown,{failed_to_start_child,kz_auth_init,{'EXIT',{{badmatch,{error,<<"internal_server_error">>}},[{kz_auth_keys,public_key,1,[{file,"src/kz_auth_keys.erl"},{line,245}]},{kz_auth_init,start_link,0,[{file,"src/kz_auth_init.erl"},{line,18}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,365}]},{supervisor,start_children,3,[{file,"supervisor.erl"},{line,348}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,314}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,...}]},...]}}}},...} in application_master:init/4 line 134
+17:29:07.094 [error] |00000000000|kapps_controller:107(<0.1428.0>) ecallmgr could not start: {kazoo_auth,{{shutdown,{failed_to_start_child,kz_auth_init,{'EXIT',{{badmatch,{error,<<"internal_server_error">>}},[{kz_auth_keys,public_key,1,[{file,"src/kz_auth_keys.erl"},{line,245}]},{kz_auth_init,start_link,0,[{file,"src/kz_auth_init.erl"},{line,18}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,365}]},{supervisor,start_children,3,[{file,"supervisor.erl"},{line,348}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,314}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}}},{kazoo_auth_app,start,[normal,[]]}}}
+17:29:07.094 [notice] |00000000000|kapps_controller:195(<0.1428.0>) auto-started kapps []
+18:56:14.290 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application lager started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:14.291 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application inet_cidr started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:14.291 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application erlang_localtime started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:14.291 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application jiffy started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:14.291 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_stdlib started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:14.292 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application rfc3339 started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:14.292 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application jsx started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:14.293 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application jesse started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:14.293 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_schemas started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:14.293 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application recon started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:14.293 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:14.294 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application proper started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:14.299 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application gun started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:14.306 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application ranch started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:14.314 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application cowboy started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:14.314 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_proper started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:14.315 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application zucchini started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:14.324 [warning] |0000000000|kazoo_config_init:48(<0.183.0>) file /etc/kazoo/config.ini does not exist or is not accessible
+18:56:14.329 [info] |0000000000|kazoo_config_init:44(<0.183.0>) loaded configs from file /etc/kazoo/core/config.ini
+18:56:14.329 [notice] |0000000000|kazoo_config_init:59(<0.183.0>) loaded settings : [{zone,[{name,z100},{amqp_uri,"amqp://guest:guest@rabbit1-z100.hpbx.lxd:5672"}]},{zone,[{name,z200},{amqp_uri,"amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672"}]},{bigcouch,[{compact_automatically,true},{cookie,sWHHbyUtMvO1zNP},{ip,"10.112.75.72"},{port,15984},{username,"admin"},{password,"adminadmin01"},{admin_port,15986}]},{kazoo_apps,[{host,"kazoo1-z100.hpbx.lxd"},{zone,z100},{cookie,sWHHbyUtMvO1zNP}]},{ecallmgr,[{host,"kazoo1-z100.hpbx.lxd"},{zone,z100},{cookie,sWHHbyUtMvO1zNP}]},{kazoo_apps,[{host,"kazoo1-z200.hpbx.lxd"},{zone,z200},{cookie,sWHHbyUtMvO1zNP}]},{ecallmgr,[{host,"kazoo1-z200.hpbx.lxd"},{zone,z200},{cookie,sWHHbyUtMvO1zNP}]},{log,[{syslog,info},{console,notice},{file,error}]}]
+18:56:14.342 [notice] |0000000000|kazoo_config_init:66(<0.183.0>) setting zone to z100
+18:56:14.343 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_config started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:14.343 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_etsmgr started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:15.380 [info] |0000000000|kazoo_bindings_init:18(<0.190.0>) kazoo bindings is ready
+18:56:15.381 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_bindings started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:15.381 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application ranch_proxy_protocol started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:15.381 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application rabbit_common started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:15.400 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application amqp_client started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:15.453 [info] |00000000000|kz_amqp_bootstrap:54(<0.208.0>) waiting for first amqp connection...
+18:56:15.699 [info] |00000000000|kz_amqp_connection:278(<0.210.0>) successfully connected to 'amqp://guest:guest@rabbit1-z100.hpbx.lxd:5672'
+18:56:16.917 [info] |00000000000|kz_amqp_connection:278(<0.209.0>) successfully connected to 'amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672'
+18:56:18.150 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_amqp started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:18.863 [info] |0000000000|kz_globals:341(<0.920.0>) ready to register names
+18:56:19.140 [info] |0000000000|gen_listener:692(<0.920.0>) federator <0.1233.0>(#Ref<0.0.1.4813>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+18:56:19.140 [info] |0000000000|kz_globals:309(<0.920.0>) globals acquired queue name ecallmgr@kazoo1-z100.hpbx.lxd-kz_globals-<0.920.0>-d55fa1f3
+18:56:19.492 [info] |0000000000|gen_listener:682(<0.920.0>) federator for amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 is consuming, all waiting federators are available!
+18:56:20.107 [info] |0000000000|kazoo_globals_init:18(<0.784.0>) kazoo globals is ready
+18:56:20.119 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_globals started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:20.146 [notice] |0000000000|kazoo_telemetry_leader:122(<0.1249.0>) starting kazoo_telemetry leader
+18:56:20.147 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_telemetry started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:20.184 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_caches started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:20.199 [info] |0000000000|gen_listener:692(<0.1239.0>) federator <0.1259.0>(#Ref<0.0.1.4939>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+18:56:20.199 [info] |0000000000|kz_nodes:775(<0.1239.0>) nodes acquired queue name ecallmgr@kazoo1-z100.hpbx.lxd-kz_nodes-<0.1239.0>-dabc5de9, starting remote heartbeats
+18:56:20.206 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application erlazure started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:20.211 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application eini started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:20.211 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application base16 started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:20.220 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application lhttpc started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:20.220 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application erlcloud started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:20.229 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_attachments started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:20.266 [info] |kazoo_data_cache_lru|kz_cache_lru:40(<0.1291.0>) LRU expiration checks every 10000ms
+18:56:20.278 [info] |kazoo_data_plan_cache_lru|kz_cache_lru:40(<0.1298.0>) LRU expiration checks every 10000ms
+18:56:20.296 [info] |kazoo_data_cache_listener|gen_listener:692(<0.1292.0>) federator <0.1308.0>(#Ref<0.0.1.5062>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+18:56:20.300 [info] |kazoo_data_plan_cache_listener|gen_listener:692(<0.1300.0>) federator <0.1309.0>(#Ref<0.0.1.5079>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+18:56:20.323 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application idna started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:20.323 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application mimerl started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:20.324 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application certifi started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:20.325 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application metrics started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:20.325 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application ssl_verify_fun started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:20.347 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application hackney started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:20.381 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application couchbeam started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:20.392 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_couch started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:20.397 [info] |00000000000|kazoo_data_bootstrap:21(<0.1286.0>) waiting for first connection...
+18:56:20.397 [info] |00000000000|kz_dataconnections:153(<0.1321.0>) adding connection
+18:56:20.402 [info] |0000000000|kz_dataconnection:46(<0.1344.0>) start connection
+18:56:20.402 [info] |0000000000|kz_dataconnection:128(<0.1344.0>) trying to connect kazoo_couch
+18:56:20.541 [warning] |0000000000|kz_couch_util:363(<0.1344.0>) connection to http://admin:adminadmin01@10.112.75.72:15984 failed: {bad_response,{401,[{<<"Cache-Control">>,<<"must-revalidate">>},{<<"Content-Length">>,<<"67">>},{<<"Content-Type">>,<<"application/json">>},{<<"Date">>,<<"Thu, 13 Apr 2023 18:56:20 GMT">>},{<<"Server">>,<<"CouchDB/2.3.1 (Erlang OTP/19)">>},{<<"X-Couch-Request-ID">>,<<"ca2fcbc65f">>},{<<"X-CouchDB-Body-Time">>,<<"0">>}],<<"{\"error\":\"unauthorized\",\"reason\":\"Name or password is incorrect.\"}\n">>}}
+18:56:20.549 [info] |0000000000|kz_dataconnection:138(<0.1344.0>) failed to connect with kazoo_couch : {error,{bad_response,{401,[{<<"Cache-Control">>,<<"must-revalidate">>},{<<"Content-Length">>,<<"67">>},{<<"Content-Type">>,<<"application/json">>},{<<"Date">>,<<"Thu, 13 Apr 2023 18:56:20 GMT">>},{<<"Server">>,<<"CouchDB/2.3.1 (Erlang OTP/19)">>},{<<"X-Couch-Request-ID">>,<<"ca2fcbc65f">>},{<<"X-CouchDB-Body-Time">>,<<"0">>}],<<"{\"error\":\"unauthorized\",\"reason\":\"Name or password is incorrect.\"}\n">>}}} : #{admin_port => 15986,compact_automatically => true,cookie => sWHHbyUtMvO1zNP,driver => kazoo_couch,ip => "10.112.75.72",password => "adminadmin01",port => 15984,tag => local,username => "admin"}
+18:56:20.559 [info] |0000000000|gen_listener:682(<0.1239.0>) federator for amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 is consuming, all waiting federators are available!
+18:56:20.646 [info] |kazoo_data_cache_listener|gen_listener:682(<0.1292.0>) federator for amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 is consuming, all waiting federators are available!
+18:56:20.654 [info] |kazoo_data_plan_cache_listener|gen_listener:682(<0.1300.0>) federator for amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 is consuming, all waiting federators are available!
+18:56:21.550 [info] |0000000000|kz_dataconnection:128(<0.1344.0>) trying to connect kazoo_couch
+18:56:21.560 [warning] |0000000000|kz_couch_util:363(<0.1344.0>) connection to http://admin:adminadmin01@10.112.75.72:15984 failed: {bad_response,{401,[{<<"Cache-Control">>,<<"must-revalidate">>},{<<"Content-Length">>,<<"67">>},{<<"Content-Type">>,<<"application/json">>},{<<"Date">>,<<"Thu, 13 Apr 2023 18:56:20 GMT">>},{<<"Server">>,<<"CouchDB/2.3.1 (Erlang OTP/19)">>},{<<"X-Couch-Request-ID">>,<<"1b419ac9dc">>},{<<"X-CouchDB-Body-Time">>,<<"0">>}],<<"{\"error\":\"unauthorized\",\"reason\":\"Name or password is incorrect.\"}\n">>}}
+18:56:21.561 [info] |0000000000|kz_dataconnection:138(<0.1344.0>) failed to connect with kazoo_couch : {error,{bad_response,{401,[{<<"Cache-Control">>,<<"must-revalidate">>},{<<"Content-Length">>,<<"67">>},{<<"Content-Type">>,<<"application/json">>},{<<"Date">>,<<"Thu, 13 Apr 2023 18:56:20 GMT">>},{<<"Server">>,<<"CouchDB/2.3.1 (Erlang OTP/19)">>},{<<"X-Couch-Request-ID">>,<<"1b419ac9dc">>},{<<"X-CouchDB-Body-Time">>,<<"0">>}],<<"{\"error\":\"unauthorized\",\"reason\":\"Name or password is incorrect.\"}\n">>}}} : #{admin_port => 15986,compact_automatically => true,cookie => sWHHbyUtMvO1zNP,driver => kazoo_couch,ip => "10.112.75.72",password => "adminadmin01",port => 15984,tag => local,username => "admin"}
+18:56:22.466 [info] |83ac7e4a-8c73-4996-8e4f-0c8211598236|kz_nodes:1149(<0.1350.0>) received heartbeat from new node kamailio@km1-z100.hpbx.lxd
+18:56:22.561 [info] |0000000000|kz_dataconnection:128(<0.1344.0>) trying to connect kazoo_couch
+18:56:22.565 [warning] |0000000000|kz_couch_util:363(<0.1344.0>) connection to http://admin:adminadmin01@10.112.75.72:15984 failed: {bad_response,{401,[{<<"Cache-Control">>,<<"must-revalidate">>},{<<"Content-Length">>,<<"67">>},{<<"Content-Type">>,<<"application/json">>},{<<"Date">>,<<"Thu, 13 Apr 2023 18:56:22 GMT">>},{<<"Server">>,<<"CouchDB/2.3.1 (Erlang OTP/19)">>},{<<"X-Couch-Request-ID">>,<<"d55fea299f">>},{<<"X-CouchDB-Body-Time">>,<<"0">>}],<<"{\"error\":\"unauthorized\",\"reason\":\"Name or password is incorrect.\"}\n">>}}
+18:56:22.565 [info] |0000000000|kz_dataconnection:138(<0.1344.0>) failed to connect with kazoo_couch : {error,{bad_response,{401,[{<<"Cache-Control">>,<<"must-revalidate">>},{<<"Content-Length">>,<<"67">>},{<<"Content-Type">>,<<"application/json">>},{<<"Date">>,<<"Thu, 13 Apr 2023 18:56:22 GMT">>},{<<"Server">>,<<"CouchDB/2.3.1 (Erlang OTP/19)">>},{<<"X-Couch-Request-ID">>,<<"d55fea299f">>},{<<"X-CouchDB-Body-Time">>,<<"0">>}],<<"{\"error\":\"unauthorized\",\"reason\":\"Name or password is incorrect.\"}\n">>}}} : #{admin_port => 15986,compact_automatically => true,cookie => sWHHbyUtMvO1zNP,driver => kazoo_couch,ip => "10.112.75.72",password => "adminadmin01",port => 15984,tag => local,username => "admin"}
+18:56:23.565 [info] |0000000000|kz_dataconnection:128(<0.1344.0>) trying to connect kazoo_couch
+18:56:23.571 [warning] |0000000000|kz_couch_util:363(<0.1344.0>) connection to http://admin:adminadmin01@10.112.75.72:15984 failed: {bad_response,{401,[{<<"Cache-Control">>,<<"must-revalidate">>},{<<"Content-Length">>,<<"67">>},{<<"Content-Type">>,<<"application/json">>},{<<"Date">>,<<"Thu, 13 Apr 2023 18:56:22 GMT">>},{<<"Server">>,<<"CouchDB/2.3.1 (Erlang OTP/19)">>},{<<"X-Couch-Request-ID">>,<<"2d5e67bf71">>},{<<"X-CouchDB-Body-Time">>,<<"0">>}],<<"{\"error\":\"unauthorized\",\"reason\":\"Name or password is incorrect.\"}\n">>}}
+18:56:23.572 [info] |0000000000|kz_dataconnection:138(<0.1344.0>) failed to connect with kazoo_couch : {error,{bad_response,{401,[{<<"Cache-Control">>,<<"must-revalidate">>},{<<"Content-Length">>,<<"67">>},{<<"Content-Type">>,<<"application/json">>},{<<"Date">>,<<"Thu, 13 Apr 2023 18:56:22 GMT">>},{<<"Server">>,<<"CouchDB/2.3.1 (Erlang OTP/19)">>},{<<"X-Couch-Request-ID">>,<<"2d5e67bf71">>},{<<"X-CouchDB-Body-Time">>,<<"0">>}],<<"{\"error\":\"unauthorized\",\"reason\":\"Name or password is incorrect.\"}\n">>}}} : #{admin_port => 15986,compact_automatically => true,cookie => sWHHbyUtMvO1zNP,driver => kazoo_couch,ip => "10.112.75.72",password => "adminadmin01",port => 15984,tag => local,username => "admin"}
+18:56:24.572 [info] |0000000000|kz_dataconnection:128(<0.1344.0>) trying to connect kazoo_couch
+18:56:24.576 [warning] |0000000000|kz_couch_util:363(<0.1344.0>) connection to http://admin:adminadmin01@10.112.75.72:15984 failed: {bad_response,{401,[{<<"Cache-Control">>,<<"must-revalidate">>},{<<"Content-Length">>,<<"67">>},{<<"Content-Type">>,<<"application/json">>},{<<"Date">>,<<"Thu, 13 Apr 2023 18:56:24 GMT">>},{<<"Server">>,<<"CouchDB/2.3.1 (Erlang OTP/19)">>},{<<"X-Couch-Request-ID">>,<<"e0b3e04f98">>},{<<"X-CouchDB-Body-Time">>,<<"0">>}],<<"{\"error\":\"unauthorized\",\"reason\":\"Name or password is incorrect.\"}\n">>}}
+18:56:24.576 [info] |0000000000|kz_dataconnection:138(<0.1344.0>) failed to connect with kazoo_couch : {error,{bad_response,{401,[{<<"Cache-Control">>,<<"must-revalidate">>},{<<"Content-Length">>,<<"67">>},{<<"Content-Type">>,<<"application/json">>},{<<"Date">>,<<"Thu, 13 Apr 2023 18:56:24 GMT">>},{<<"Server">>,<<"CouchDB/2.3.1 (Erlang OTP/19)">>},{<<"X-Couch-Request-ID">>,<<"e0b3e04f98">>},{<<"X-CouchDB-Body-Time">>,<<"0">>}],<<"{\"error\":\"unauthorized\",\"reason\":\"Name or password is incorrect.\"}\n">>}}} : #{admin_port => 15986,compact_automatically => true,cookie => sWHHbyUtMvO1zNP,driver => kazoo_couch,ip => "10.112.75.72",password => "adminadmin01",port => 15984,tag => local,username => "admin"}
+18:56:25.233 [info] |83ac7e4a-8c73-4996-8e4f-0c8211598236|kz_nodes:1149(<0.1355.0>) received heartbeat from new node kamailio@km1-z200.hpbx.lxd
+18:56:25.577 [info] |0000000000|kz_dataconnection:128(<0.1344.0>) trying to connect kazoo_couch
+18:56:25.584 [warning] |0000000000|kz_couch_util:363(<0.1344.0>) connection to http://admin:adminadmin01@10.112.75.72:15984 failed: {bad_response,{401,[{<<"Cache-Control">>,<<"must-revalidate">>},{<<"Content-Length">>,<<"67">>},{<<"Content-Type">>,<<"application/json">>},{<<"Date">>,<<"Thu, 13 Apr 2023 18:56:24 GMT">>},{<<"Server">>,<<"CouchDB/2.3.1 (Erlang OTP/19)">>},{<<"X-Couch-Request-ID">>,<<"20a3371edb">>},{<<"X-CouchDB-Body-Time">>,<<"0">>}],<<"{\"error\":\"unauthorized\",\"reason\":\"Name or password is incorrect.\"}\n">>}}
+18:56:25.584 [info] |0000000000|kz_dataconnection:138(<0.1344.0>) failed to connect with kazoo_couch : {error,{bad_response,{401,[{<<"Cache-Control">>,<<"must-revalidate">>},{<<"Content-Length">>,<<"67">>},{<<"Content-Type">>,<<"application/json">>},{<<"Date">>,<<"Thu, 13 Apr 2023 18:56:24 GMT">>},{<<"Server">>,<<"CouchDB/2.3.1 (Erlang OTP/19)">>},{<<"X-Couch-Request-ID">>,<<"20a3371edb">>},{<<"X-CouchDB-Body-Time">>,<<"0">>}],<<"{\"error\":\"unauthorized\",\"reason\":\"Name or password is incorrect.\"}\n">>}}} : #{admin_port => 15986,compact_automatically => true,cookie => sWHHbyUtMvO1zNP,driver => kazoo_couch,ip => "10.112.75.72",password => "adminadmin01",port => 15984,tag => local,username => "admin"}
+18:56:26.585 [info] |0000000000|kz_dataconnection:128(<0.1344.0>) trying to connect kazoo_couch
+18:56:26.588 [warning] |0000000000|kz_couch_util:363(<0.1344.0>) connection to http://admin:adminadmin01@10.112.75.72:15984 failed: {bad_response,{401,[{<<"Cache-Control">>,<<"must-revalidate">>},{<<"Content-Length">>,<<"67">>},{<<"Content-Type">>,<<"application/json">>},{<<"Date">>,<<"Thu, 13 Apr 2023 18:56:26 GMT">>},{<<"Server">>,<<"CouchDB/2.3.1 (Erlang OTP/19)">>},{<<"X-Couch-Request-ID">>,<<"803ea63d96">>},{<<"X-CouchDB-Body-Time">>,<<"0">>}],<<"{\"error\":\"unauthorized\",\"reason\":\"Name or password is incorrect.\"}\n">>}}
+18:56:26.589 [info] |0000000000|kz_dataconnection:138(<0.1344.0>) failed to connect with kazoo_couch : {error,{bad_response,{401,[{<<"Cache-Control">>,<<"must-revalidate">>},{<<"Content-Length">>,<<"67">>},{<<"Content-Type">>,<<"application/json">>},{<<"Date">>,<<"Thu, 13 Apr 2023 18:56:26 GMT">>},{<<"Server">>,<<"CouchDB/2.3.1 (Erlang OTP/19)">>},{<<"X-Couch-Request-ID">>,<<"803ea63d96">>},{<<"X-CouchDB-Body-Time">>,<<"0">>}],<<"{\"error\":\"unauthorized\",\"reason\":\"Name or password is incorrect.\"}\n">>}}} : #{admin_port => 15986,compact_automatically => true,cookie => sWHHbyUtMvO1zNP,driver => kazoo_couch,ip => "10.112.75.72",password => "adminadmin01",port => 15984,tag => local,username => "admin"}
+18:56:27.589 [info] |0000000000|kz_dataconnection:128(<0.1344.0>) trying to connect kazoo_couch
+18:56:27.595 [warning] |0000000000|kz_couch_util:363(<0.1344.0>) connection to http://admin:adminadmin01@10.112.75.72:15984 failed: {bad_response,{401,[{<<"Cache-Control">>,<<"must-revalidate">>},{<<"Content-Length">>,<<"67">>},{<<"Content-Type">>,<<"application/json">>},{<<"Date">>,<<"Thu, 13 Apr 2023 18:56:26 GMT">>},{<<"Server">>,<<"CouchDB/2.3.1 (Erlang OTP/19)">>},{<<"X-Couch-Request-ID">>,<<"6fd78e35d1">>},{<<"X-CouchDB-Body-Time">>,<<"0">>}],<<"{\"error\":\"unauthorized\",\"reason\":\"Name or password is incorrect.\"}\n">>}}
+18:56:27.596 [info] |0000000000|kz_dataconnection:138(<0.1344.0>) failed to connect with kazoo_couch : {error,{bad_response,{401,[{<<"Cache-Control">>,<<"must-revalidate">>},{<<"Content-Length">>,<<"67">>},{<<"Content-Type">>,<<"application/json">>},{<<"Date">>,<<"Thu, 13 Apr 2023 18:56:26 GMT">>},{<<"Server">>,<<"CouchDB/2.3.1 (Erlang OTP/19)">>},{<<"X-Couch-Request-ID">>,<<"6fd78e35d1">>},{<<"X-CouchDB-Body-Time">>,<<"0">>}],<<"{\"error\":\"unauthorized\",\"reason\":\"Name or password is incorrect.\"}\n">>}}} : #{admin_port => 15986,compact_automatically => true,cookie => sWHHbyUtMvO1zNP,driver => kazoo_couch,ip => "10.112.75.72",password => "adminadmin01",port => 15984,tag => local,username => "admin"}
+18:56:28.596 [info] |0000000000|kz_dataconnection:128(<0.1344.0>) trying to connect kazoo_couch
+18:56:28.600 [warning] |0000000000|kz_couch_util:363(<0.1344.0>) connection to http://admin:adminadmin01@10.112.75.72:15984 failed: {bad_response,{401,[{<<"Cache-Control">>,<<"must-revalidate">>},{<<"Content-Length">>,<<"67">>},{<<"Content-Type">>,<<"application/json">>},{<<"Date">>,<<"Thu, 13 Apr 2023 18:56:28 GMT">>},{<<"Server">>,<<"CouchDB/2.3.1 (Erlang OTP/19)">>},{<<"X-Couch-Request-ID">>,<<"aef77916e6">>},{<<"X-CouchDB-Body-Time">>,<<"0">>}],<<"{\"error\":\"unauthorized\",\"reason\":\"Name or password is incorrect.\"}\n">>}}
+18:56:28.600 [info] |0000000000|kz_dataconnection:138(<0.1344.0>) failed to connect with kazoo_couch : {error,{bad_response,{401,[{<<"Cache-Control">>,<<"must-revalidate">>},{<<"Content-Length">>,<<"67">>},{<<"Content-Type">>,<<"application/json">>},{<<"Date">>,<<"Thu, 13 Apr 2023 18:56:28 GMT">>},{<<"Server">>,<<"CouchDB/2.3.1 (Erlang OTP/19)">>},{<<"X-Couch-Request-ID">>,<<"aef77916e6">>},{<<"X-CouchDB-Body-Time">>,<<"0">>}],<<"{\"error\":\"unauthorized\",\"reason\":\"Name or password is incorrect.\"}\n">>}}} : #{admin_port => 15986,compact_automatically => true,cookie => sWHHbyUtMvO1zNP,driver => kazoo_couch,ip => "10.112.75.72",password => "adminadmin01",port => 15984,tag => local,username => "admin"}
+18:56:29.601 [info] |0000000000|kz_dataconnection:128(<0.1344.0>) trying to connect kazoo_couch
+18:56:29.606 [warning] |0000000000|kz_couch_util:363(<0.1344.0>) connection to http://admin:adminadmin01@10.112.75.72:15984 failed: {bad_response,{401,[{<<"Cache-Control">>,<<"must-revalidate">>},{<<"Content-Length">>,<<"67">>},{<<"Content-Type">>,<<"application/json">>},{<<"Date">>,<<"Thu, 13 Apr 2023 18:56:28 GMT">>},{<<"Server">>,<<"CouchDB/2.3.1 (Erlang OTP/19)">>},{<<"X-Couch-Request-ID">>,<<"062212e042">>},{<<"X-CouchDB-Body-Time">>,<<"0">>}],<<"{\"error\":\"unauthorized\",\"reason\":\"Name or password is incorrect.\"}\n">>}}
+18:56:29.606 [info] |0000000000|kz_dataconnection:138(<0.1344.0>) failed to connect with kazoo_couch : {error,{bad_response,{401,[{<<"Cache-Control">>,<<"must-revalidate">>},{<<"Content-Length">>,<<"67">>},{<<"Content-Type">>,<<"application/json">>},{<<"Date">>,<<"Thu, 13 Apr 2023 18:56:28 GMT">>},{<<"Server">>,<<"CouchDB/2.3.1 (Erlang OTP/19)">>},{<<"X-Couch-Request-ID">>,<<"062212e042">>},{<<"X-CouchDB-Body-Time">>,<<"0">>}],<<"{\"error\":\"unauthorized\",\"reason\":\"Name or password is incorrect.\"}\n">>}}} : #{admin_port => 15986,compact_automatically => true,cookie => sWHHbyUtMvO1zNP,driver => kazoo_couch,ip => "10.112.75.72",password => "adminadmin01",port => 15984,tag => local,username => "admin"}
+18:56:29.755 [error] |0000000000|Undefined:Undefined(<0.1360.0>) ** Connection attempt from disallowed node 'sup_a806@kazoo1-z100.hpbx.lxd' ** 
+18:56:58.099 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application lager started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:58.099 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application inet_cidr started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:58.100 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application erlang_localtime started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:58.100 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application jiffy started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:58.101 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_stdlib started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:58.101 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application rfc3339 started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:58.101 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application jsx started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:58.102 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application jesse started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:58.102 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_schemas started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:58.103 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application recon started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:58.103 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:58.103 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application proper started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:58.107 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application gun started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:58.114 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application ranch started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:58.120 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application cowboy started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:58.121 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_proper started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:58.121 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application zucchini started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:58.130 [warning] |0000000000|kazoo_config_init:48(<0.183.0>) file /etc/kazoo/config.ini does not exist or is not accessible
+18:56:58.134 [info] |0000000000|kazoo_config_init:44(<0.183.0>) loaded configs from file /etc/kazoo/core/config.ini
+18:56:58.134 [notice] |0000000000|kazoo_config_init:59(<0.183.0>) loaded settings : [{zone,[{name,z100},{amqp_uri,"amqp://guest:guest@rabbit1-z100.hpbx.lxd:5672"}]},{zone,[{name,z200},{amqp_uri,"amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672"}]},{bigcouch,[{compact_automatically,true},{cookie,sWHHbyUtMvO1zNP},{ip,"10.112.75.72"},{port,15984},{admin_port,15986}]},{kazoo_apps,[{host,"kazoo1-z100.hpbx.lxd"},{zone,z100},{cookie,sWHHbyUtMvO1zNP}]},{ecallmgr,[{host,"kazoo1-z100.hpbx.lxd"},{zone,z100},{cookie,sWHHbyUtMvO1zNP}]},{kazoo_apps,[{host,"kazoo1-z200.hpbx.lxd"},{zone,z200},{cookie,sWHHbyUtMvO1zNP}]},{ecallmgr,[{host,"kazoo1-z200.hpbx.lxd"},{zone,z200},{cookie,sWHHbyUtMvO1zNP}]},{log,[{syslog,info},{console,notice},{file,error}]}]
+18:56:58.146 [notice] |0000000000|kazoo_config_init:66(<0.183.0>) setting zone to z100
+18:56:58.146 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_config started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:58.146 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_etsmgr started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:59.175 [info] |0000000000|kazoo_bindings_init:18(<0.190.0>) kazoo bindings is ready
+18:56:59.176 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_bindings started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:59.177 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application ranch_proxy_protocol started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:59.177 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application rabbit_common started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:59.190 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application amqp_client started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:56:59.231 [info] |00000000000|kz_amqp_bootstrap:54(<0.208.0>) waiting for first amqp connection...
+18:56:59.437 [info] |00000000000|kz_amqp_connection:278(<0.210.0>) successfully connected to 'amqp://guest:guest@rabbit1-z100.hpbx.lxd:5672'
+18:57:00.667 [info] |00000000000|kz_amqp_connection:278(<0.209.0>) successfully connected to 'amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672'
+18:57:01.902 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_amqp started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:02.658 [info] |0000000000|kz_globals:341(<0.919.0>) ready to register names
+18:57:02.974 [info] |0000000000|gen_listener:692(<0.919.0>) federator <0.1233.0>(#Ref<0.0.1.4814>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+18:57:02.975 [info] |0000000000|kz_globals:309(<0.919.0>) globals acquired queue name ecallmgr@kazoo1-z100.hpbx.lxd-kz_globals-<0.919.0>-57f2090b
+18:57:03.322 [info] |0000000000|gen_listener:682(<0.919.0>) federator for amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 is consuming, all waiting federators are available!
+18:57:03.906 [info] |0000000000|kazoo_globals_init:18(<0.783.0>) kazoo globals is ready
+18:57:03.916 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_globals started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:03.942 [notice] |0000000000|kazoo_telemetry_leader:122(<0.1249.0>) starting kazoo_telemetry leader
+18:57:03.943 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_telemetry started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:03.979 [info] |0000000000|gen_listener:692(<0.1239.0>) federator <0.1254.0>(#Ref<0.0.1.4928>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+18:57:03.979 [info] |0000000000|kz_nodes:775(<0.1239.0>) nodes acquired queue name ecallmgr@kazoo1-z100.hpbx.lxd-kz_nodes-<0.1239.0>-906001c9, starting remote heartbeats
+18:57:03.990 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_caches started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:03.995 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application erlazure started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:04.002 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application eini started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:04.002 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application base16 started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:04.012 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application lhttpc started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:04.013 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application erlcloud started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:04.026 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_attachments started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:04.057 [info] |kazoo_data_cache_lru|kz_cache_lru:40(<0.1291.0>) LRU expiration checks every 10000ms
+18:57:04.068 [info] |kazoo_data_plan_cache_lru|kz_cache_lru:40(<0.1299.0>) LRU expiration checks every 10000ms
+18:57:04.085 [info] |kazoo_data_cache_listener|gen_listener:692(<0.1292.0>) federator <0.1308.0>(#Ref<0.0.1.5064>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+18:57:04.090 [info] |kazoo_data_plan_cache_listener|gen_listener:692(<0.1300.0>) federator <0.1309.0>(#Ref<0.0.1.5081>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+18:57:04.111 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application idna started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:04.111 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application mimerl started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:04.111 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application certifi started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:04.112 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application metrics started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:04.112 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application ssl_verify_fun started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:04.126 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application hackney started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:04.144 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application couchbeam started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:04.151 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_couch started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:04.157 [info] |00000000000|kazoo_data_bootstrap:21(<0.1286.0>) waiting for first connection...
+18:57:04.157 [info] |00000000000|kz_dataconnections:153(<0.1321.0>) adding connection
+18:57:04.170 [info] |0000000000|kz_dataconnection:46(<0.1344.0>) start connection
+18:57:04.171 [info] |0000000000|kz_dataconnection:128(<0.1344.0>) trying to connect kazoo_couch
+18:57:04.329 [info] |0000000000|gen_listener:682(<0.1239.0>) federator for amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 is consuming, all waiting federators are available!
+18:57:04.346 [info] |00000000000|kz_dataconnections:74(<0.1286.0>) connected to local: {"couchdb":"Welcome","version":"2.3.1","git_sha":"c298091a4","uuid":"87625c1a6299240368084e61d0b05256","features":["pluggable-storage-engines","scheduler"],"vendor":{"name":"The Apache Software Foundation"}}
+18:57:04.376 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database system_data
+18:57:04.435 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database system_config
+18:57:04.437 [info] |kazoo_data_cache_listener|gen_listener:682(<0.1292.0>) federator for amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 is consuming, all waiting federators are available!
+18:57:04.438 [info] |kazoo_data_plan_cache_listener|gen_listener:682(<0.1300.0>) federator for amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 is consuming, all waiting federators are available!
+18:57:04.483 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database system_schemas
+18:57:04.504 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database system_auth
+18:57:04.549 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database system_media
+18:57:04.608 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database sip_auth
+18:57:04.647 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database accounts
+18:57:04.677 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database ratedeck
+18:57:04.736 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database global_provisioner
+18:57:04.767 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database faxes
+18:57:04.805 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database services
+18:57:04.842 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database offnet
+18:57:04.871 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database anonymous_cdrs
+18:57:04.900 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database port_requests
+18:57:04.939 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database dedicated_ips
+18:57:04.970 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database acdc
+18:57:05.004 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database oauth
+18:57:05.038 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database webhooks
+18:57:05.257 [info] |kz_nodes|kz_nodes:1149(<0.1366.0>) received heartbeat from new node kamailio@km1-z200.hpbx.lxd
+18:57:05.375 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database token_auth
+18:57:05.615 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database alerts
+18:57:05.827 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database tasks
+18:57:06.099 [info] |00000000000|kz_datamgr:1683(<0.1286.0>) creating database pending_notifications
+18:57:06.396 [error] |undefined|kzs_plan:574(<0.1374.0>) error reloading dataplans {error,not_found}
+18:57:06.539 [info] |00000000000|kzs_plan:572(<0.1286.0>) no dataplans to load
+18:57:06.542 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_data started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:06.545 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_modb started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:07.035 [info] |0000000000|kapps_config:733(<0.1382.0>) saved cat datamgr to db system_config (1-2e55fa710431368a1cb30257c27cc9df)
+18:57:07.036 [info] |0000000000|kapps_config:733(<0.1382.0>) saved cat datamgr to db system_config (1-2e55fa710431368a1cb30257c27cc9df)
+18:57:07.333 [info] |0000000000|kapps_config:733(<0.1382.0>) saved cat number_manager to db system_config (1-fb990a5e74d7f68a07b885a4efbf9507)
+18:57:07.568 [info] |kazoo_services_cache_lru|kz_cache_lru:40(<0.1403.0>) LRU expiration checks every 10000ms
+18:57:07.573 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_services started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:07.574 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_web started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:07.575 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_transactions started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:07.576 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_documents started on node 'ecallmgr@kazoo1-z100.hpbx.lxd'
+18:57:07.583 [info] |kazoo_services_cache_listener|gen_listener:692(<0.1404.0>) federator <0.1416.0>(#Ref<0.0.1.6046>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+18:57:07.622 [info] |kapps_config_cache_lru|kz_cache_lru:40(<0.1427.0>) LRU expiration checks every 10000ms
+18:57:07.623 [info] |kazoo_apps_init|kazoo_apps_init:31(<0.1423.0>) setting kazoo_apps cookie to sWHHbyUtMvO1zNP
+18:57:07.627 [info] |kapps_getby_cache_lru|kz_cache_lru:40(<0.1436.0>) LRU expiration checks every 10000ms
+18:57:07.648 [info] |kapps_getby_cache_listener|gen_listener:692(<0.1437.0>) federator <0.1446.0>(#Ref<0.0.1.6339>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+18:57:07.654 [info] |kapps_config_cache_listener|gen_listener:692(<0.1428.0>) federator <0.1445.0>(#Ref<0.0.1.6353>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+18:57:07.657 [info] |kazoo_apps_init|kz_log:73(<0.1423.0>) handler lager_console_backend now logging at notice (was info)
+18:57:07.658 [info] |kazoo_apps_init|kz_log:73(<0.1423.0>) handler {lager_file_backend,"log/console.log"} now logging at notice (was info)
+18:57:07.658 [notice] |0000000000|lager_file_backend:135(<0.125.0>) Changed loglevel of log/console.log to notice
+18:57:09.854 [notice] |00000000000|kapps_maintenance:2165(<0.1430.0>) system initialized
+18:57:16.129 [notice] |00000000000|kapps_controller:195(<0.1430.0>) auto-started kapps [ecallmgr]
+18:57:41.027 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application lager started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:41.028 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application inet_cidr started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:41.028 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application erlang_localtime started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:41.029 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application jiffy started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:41.029 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_stdlib started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:41.029 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application rfc3339 started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:41.030 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application jsx started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:41.030 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application jesse started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:41.030 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_schemas started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:41.032 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application recon started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:41.033 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:41.033 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application proper started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:41.037 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application gun started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:41.046 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application ranch started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:41.054 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application cowboy started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:41.055 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_proper started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:41.055 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application zucchini started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:41.064 [warning] |0000000000|kazoo_config_init:48(<0.183.0>) file /etc/kazoo/config.ini does not exist or is not accessible
+18:57:41.068 [info] |0000000000|kazoo_config_init:44(<0.183.0>) loaded configs from file /etc/kazoo/core/config.ini
+18:57:41.069 [notice] |0000000000|kazoo_config_init:59(<0.183.0>) loaded settings : [{zone,[{name,z100},{amqp_uri,"amqp://guest:guest@rabbit1-z100.hpbx.lxd:5672"}]},{zone,[{name,z200},{amqp_uri,"amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672"}]},{bigcouch,[{compact_automatically,true},{cookie,sWHHbyUtMvO1zNP},{ip,"10.112.75.72"},{port,15984},{admin_port,15986}]},{kazoo_apps,[{host,"kazoo1-z100.hpbx.lxd"},{zone,z100},{cookie,sWHHbyUtMvO1zNP}]},{ecallmgr,[{host,"kazoo1-z100.hpbx.lxd"},{zone,z100},{cookie,sWHHbyUtMvO1zNP}]},{kazoo_apps,[{host,"kazoo1-z200.hpbx.lxd"},{zone,z200},{cookie,sWHHbyUtMvO1zNP}]},{ecallmgr,[{host,"kazoo1-z200.hpbx.lxd"},{zone,z200},{cookie,sWHHbyUtMvO1zNP}]},{log,[{syslog,info},{console,notice},{file,error}]}]
+18:57:41.084 [notice] |0000000000|kazoo_config_init:66(<0.183.0>) setting zone to z100
+18:57:41.085 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_config started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:41.085 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_etsmgr started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:42.117 [info] |0000000000|kazoo_bindings_init:18(<0.190.0>) kazoo bindings is ready
+18:57:42.118 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_bindings started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:42.118 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application ranch_proxy_protocol started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:42.119 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application rabbit_common started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:42.142 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application amqp_client started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:42.189 [info] |00000000000|kz_amqp_bootstrap:54(<0.208.0>) waiting for first amqp connection...
+18:57:42.417 [info] |00000000000|kz_amqp_connection:278(<0.210.0>) successfully connected to 'amqp://guest:guest@rabbit1-z100.hpbx.lxd:5672'
+18:57:43.638 [info] |00000000000|kz_amqp_connection:278(<0.209.0>) successfully connected to 'amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672'
+18:57:44.841 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_amqp started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:45.565 [info] |0000000000|kz_globals:341(<0.919.0>) ready to register names
+18:57:45.861 [info] |0000000000|gen_listener:692(<0.919.0>) federator <0.1233.0>(#Ref<0.0.1.4808>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+18:57:45.861 [info] |0000000000|kz_globals:309(<0.919.0>) globals acquired queue name kazoo_apps@kazoo1-z100.hpbx.lxd-kz_globals-<0.919.0>-943d241d
+18:57:46.210 [info] |0000000000|gen_listener:682(<0.919.0>) federator for amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 is consuming, all waiting federators are available!
+18:57:46.788 [info] |0000000000|kazoo_globals_init:18(<0.783.0>) kazoo globals is ready
+18:57:46.798 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_globals started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:46.824 [notice] |0000000000|kazoo_telemetry_leader:122(<0.1249.0>) starting kazoo_telemetry leader
+18:57:46.825 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_telemetry started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:46.853 [info] |0000000000|gen_listener:692(<0.1239.0>) federator <0.1254.0>(#Ref<0.0.1.4922>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+18:57:46.854 [info] |0000000000|kz_nodes:775(<0.1239.0>) nodes acquired queue name kazoo_apps@kazoo1-z100.hpbx.lxd-kz_nodes-<0.1239.0>-9f919d37, starting remote heartbeats
+18:57:46.861 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_caches started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:46.878 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application erlazure started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:46.883 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application eini started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:46.884 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application base16 started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:46.893 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application lhttpc started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:46.896 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application erlcloud started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:46.903 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_attachments started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:46.928 [info] |kazoo_data_cache_lru|kz_cache_lru:40(<0.1291.0>) LRU expiration checks every 10000ms
+18:57:46.936 [info] |kazoo_data_plan_cache_lru|kz_cache_lru:40(<0.1299.0>) LRU expiration checks every 10000ms
+18:57:46.951 [info] |kazoo_data_cache_listener|gen_listener:692(<0.1292.0>) federator <0.1308.0>(#Ref<0.0.1.5058>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+18:57:46.956 [info] |kazoo_data_plan_cache_listener|gen_listener:692(<0.1300.0>) federator <0.1309.0>(#Ref<0.0.1.5075>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+18:57:46.971 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application idna started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:46.972 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application mimerl started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:46.973 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application certifi started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:46.973 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application metrics started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:46.973 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application ssl_verify_fun started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:46.989 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application hackney started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:47.003 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application couchbeam started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:47.008 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_couch started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:47.011 [info] |00000000000|kazoo_data_bootstrap:21(<0.1286.0>) waiting for first connection...
+18:57:47.011 [info] |00000000000|kz_dataconnections:153(<0.1321.0>) adding connection
+18:57:47.014 [info] |0000000000|kz_dataconnection:46(<0.1344.0>) start connection
+18:57:47.014 [info] |0000000000|kz_dataconnection:128(<0.1344.0>) trying to connect kazoo_couch
+18:57:47.203 [info] |0000000000|gen_listener:682(<0.1239.0>) federator for amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 is consuming, all waiting federators are available!
+18:57:47.303 [info] |kazoo_data_cache_listener|gen_listener:682(<0.1292.0>) federator for amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 is consuming, all waiting federators are available!
+18:57:47.303 [info] |kazoo_data_plan_cache_listener|gen_listener:682(<0.1300.0>) federator for amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 is consuming, all waiting federators are available!
+18:57:47.608 [info] |00000000000|kz_dataconnections:74(<0.1286.0>) connected to local: {"couchdb":"Welcome","version":"2.3.1","git_sha":"c298091a4","uuid":"eceada6b29fd57557cb398778e273aed","features":["pluggable-storage-engines","scheduler"],"vendor":{"name":"The Apache Software Foundation"}}
+18:57:47.676 [info] |7aa8b3c3307aec374141830d4b81389c|kz_nodes:1149(<0.1348.0>) received heartbeat from new node ecallmgr@kazoo1-z100.hpbx.lxd
+18:57:47.890 [info] |undefined|kzs_plan:572(<0.1350.0>) no dataplans to load
+18:57:47.891 [info] |00000000000|kzs_plan:572(<0.1286.0>) no dataplans to load
+18:57:47.893 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_data started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:47.893 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_modb started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:48.115 [info] |kazoo_services_cache_lru|kz_cache_lru:40(<0.1369.0>) LRU expiration checks every 10000ms
+18:57:48.119 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_services started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:48.120 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_web started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:48.123 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_transactions started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:48.124 [info] |0000000000|Undefined:Undefined(<0.31.0>) Application kazoo_documents started on node 'kazoo_apps@kazoo1-z100.hpbx.lxd'
+18:57:48.161 [info] |kazoo_services_cache_listener|gen_listener:692(<0.1370.0>) federator <0.1382.0>(#Ref<0.0.1.5663>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+18:57:48.192 [info] |kapps_config_cache_lru|kz_cache_lru:40(<0.1393.0>) LRU expiration checks every 10000ms
+18:57:48.193 [info] |kazoo_apps_init|kazoo_apps_init:31(<0.1389.0>) setting kazoo_apps cookie to sWHHbyUtMvO1zNP
+18:57:48.197 [info] |kapps_getby_cache_lru|kz_cache_lru:40(<0.1402.0>) LRU expiration checks every 10000ms
+18:57:48.217 [info] |kapps_getby_cache_listener|gen_listener:692(<0.1403.0>) federator <0.1412.0>(#Ref<0.0.1.5951>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+18:57:48.223 [info] |kapps_config_cache_listener|gen_listener:692(<0.1394.0>) federator <0.1411.0>(#Ref<0.0.1.5965>) on broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 started
+18:57:48.225 [info] |kazoo_apps_init|kz_log:73(<0.1389.0>) handler lager_console_backend now logging at notice (was info)
+18:57:48.226 [info] |kazoo_apps_init|kz_log:73(<0.1389.0>) handler {lager_file_backend,"log/console.log"} now logging at notice (was info)
+18:57:48.226 [notice] |0000000000|lager_file_backend:135(<0.125.0>) Changed loglevel of log/console.log to notice
+18:57:48.819 [notice] |00000000000|kapps_maintenance:2165(<0.1396.0>) system initialized
+18:57:53.598 [warning] |0000000000|Undefined:Undefined(<0.1618.0>) Setting Ranch options together with socket options is deprecated. Please use the new map syntax that allows specifying socket options separately from other options.
+18:57:54.919 [warning] |0000000000|Undefined:Undefined(<0.1817.0>) Setting Ranch options together with socket options is deprecated. Please use the new map syntax that allows specifying socket options separately from other options.
+18:57:56.030 [notice] |undefined|crossbar_maintenance:1295(<0.2042.0>) starting system schemas update
+18:57:57.288 [warning] |0000000000|Undefined:Undefined(<0.2045.0>) Setting Ranch options together with socket options is deprecated. Please use the new map syntax that allows specifying socket options separately from other options.
+18:57:58.735 [warning] |00000000000|crossbar_init:118(<0.2045.0>) failed to initialize module cb_vmboxes version v1: undef
+18:57:58.735 [notice] |00000000000|crossbar_bindings:204(<0.2045.0>) failed to initialize cb_vmboxes: no_modules_started
+18:57:59.086 [warning] |00000000000|cb_webhooks:100(<0.2045.0>) master account not set yet: no_accounts
+18:57:59.881 [warning] |0000000000|Undefined:Undefined(<0.2230.0>) Setting Ranch options together with socket options is deprecated. Please use the new map syntax that allows specifying socket options separately from other options.
+18:58:04.247 [notice] |0000000000|waveguide_responder:124(<0.2259.0>) kazoo telemetry grace period has 6 days remaining
+18:58:08.742 [notice] |undefined|crossbar_maintenance:1297(<0.2042.0>) finished system schemas update
+18:59:05.578 [notice] |00000000000|kapps_controller:195(<0.1396.0>) auto-started kapps [blackhole,callflow,cdr,conference,crossbar,fax,hangups,media_mgr,milliwatt,omnipresence,pivot,registrar,reorder,stepswitch,sysconf,tasks,teletype,trunkstore,webhooks]
+18:59:05.596 [warning] |webhooks_shared_listener|webhooks_util:760(<0.3400.0>) master account not available
+18:59:05.611 [warning] |webhooks_shared_listener|webhooks_util:760(<0.3400.0>) master account not available
+18:59:05.645 [warning] |webhooks_init|webhooks_util:760(<0.3401.0>) master account not available
+18:59:05.660 [warning] |webhooks_init|webhooks_util:760(<0.3401.0>) master account not available
+18:59:05.680 [warning] |webhooks_init|webhooks_util:760(<0.3401.0>) master account not available
+18:59:05.706 [warning] |webhooks_init|webhooks_util:760(<0.3401.0>) master account not available
+18:59:05.729 [warning] |webhooks_init|webhooks_util:760(<0.3401.0>) master account not available
+18:59:05.754 [warning] |webhooks_init|webhooks_util:760(<0.3401.0>) master account not available
+18:59:05.824 [warning] |webhooks_shared_listener|webhooks_util:760(<0.3400.0>) master account not available
+18:59:05.842 [warning] |webhooks_shared_listener|webhooks_util:760(<0.3400.0>) master account not available
+18:59:05.853 [warning] |webhooks_shared_listener|webhooks_util:760(<0.3400.0>) master account not available
+18:59:05.878 [warning] |webhooks_init|webhooks_util:760(<0.3401.0>) master account not available
+18:59:05.879 [warning] |webhooks_shared_listener|webhooks_util:760(<0.3400.0>) master account not available
+18:59:05.891 [warning] |webhooks_init|webhooks_util:760(<0.3401.0>) master account not available
+18:59:05.896 [warning] |webhooks_shared_listener|webhooks_util:760(<0.3400.0>) master account not available
+18:59:05.907 [warning] |webhooks_init|webhooks_util:760(<0.3401.0>) master account not available
+18:59:05.909 [warning] |webhooks_shared_listener|webhooks_util:760(<0.3400.0>) master account not available
+18:59:05.921 [warning] |webhooks_shared_listener|webhooks_util:760(<0.3400.0>) master account not available
+18:59:05.922 [warning] |webhooks_init|webhooks_util:760(<0.3401.0>) master account not available
+18:59:05.934 [warning] |webhooks_shared_listener|webhooks_util:760(<0.3400.0>) master account not available
+18:59:05.947 [warning] |webhooks_init|webhooks_util:760(<0.3401.0>) master account not available
+18:59:05.957 [warning] |webhooks_init|webhooks_util:760(<0.3401.0>) master account not available
+18:59:05.970 [warning] |webhooks_init|webhooks_util:760(<0.3401.0>) master account not available
+18:59:05.979 [warning] |webhooks_init|webhooks_util:760(<0.3401.0>) master account not available
+18:59:06.011 [warning] |webhooks_init|webhooks_util:760(<0.3401.0>) master account not available
+18:59:06.056 [warning] |webhooks_init|webhooks_util:760(<0.3401.0>) master account not available
+18:59:06.079 [warning] |webhooks_init|webhooks_util:760(<0.3401.0>) master account not available
+18:59:06.096 [warning] |webhooks_init|webhooks_util:760(<0.3401.0>) master account not available
+19:00:13.670 [warning] |0000000000|ecallmgr_discovery:184(<0.1992.0>) error fetching current acls - timeout
+19:00:13.680 [error] |0000000000|Undefined:Undefined(<0.213.0>) gen_server <0.213.0> terminated with reason: socket_closed_unexpectedly
+19:00:13.680 [error] |0000000000|Undefined:Undefined(<0.213.0>) CRASH REPORT Process <0.213.0> with 0 neighbours exited with reason: socket_closed_unexpectedly in gen_server:terminate/7 line 812
+19:00:13.682 [critical] |00000000000|kz_amqp_connection:196(<0.210.0>) connection to the AMQP broker amqp://guest:guest@rabbit1-z100.hpbx.lxd:5672 (<0.213.0>) died: socket_closed_unexpectedly
+19:00:13.712 [error] |0000000000|Undefined:Undefined(<0.213.0>) gen_server <0.213.0> terminated with reason: socket_closed_unexpectedly
+19:00:13.714 [error] |0000000000|Undefined:Undefined(<0.213.0>) CRASH REPORT Process <0.213.0> with 0 neighbours exited with reason: socket_closed_unexpectedly in gen_server:terminate/7 line 812
+19:00:13.716 [critical] |00000000000|kz_amqp_connection:196(<0.210.0>) connection to the AMQP broker amqp://guest:guest@rabbit1-z100.hpbx.lxd:5672 (<0.213.0>) died: socket_closed_unexpectedly
+19:00:13.683 [critical] |00000000000|kz_amqp_connection:196(<0.209.0>) connection to the AMQP broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 (<0.216.0>) died: socket_closed_unexpectedly
+19:00:13.717 [critical] |00000000000|kz_amqp_connection:196(<0.209.0>) connection to the AMQP broker amqp://guest:guest@rabbit1-z200.hpbx.lxd:5672 (<0.216.0>) died: socket_closed_unexpectedly
+19:00:13.725 [error] |0000000000|Undefined:Undefined(<0.216.0>) gen_server <0.216.0> terminated with reason: socket_closed_unexpectedly
+19:00:13.725 [error] |0000000000|Undefined:Undefined(<0.216.0>) CRASH REPORT Process <0.216.0> with 0 neighbours exited with reason: socket_closed_unexpectedly in gen_server:terminate/7 line 812
+19:00:13.726 [warning] |00000000000|kz_amqp_connections:370(<0.204.0>) connection <0.210.0> is no longer available
+19:00:13.730 [warning] |00000000000|kz_amqp_connections:370(<0.204.0>) connection <0.209.0> is no longer available
+19:00:13.730 [error] |0000000000|Undefined:Undefined(<0.211.0>) Supervisor {<0.211.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.212.0>, {amqp_params_network,<<"guest">>,<<"guest">>,<<"/">>,"rabbit1-z100.hpbx.lxd",5672,2047,0,10,500,...}) at <0.213.0> exit with reason socket_closed_unexpectedly in context child_terminated
+19:00:13.737 [error] |0000000000|Undefined:Undefined(<0.211.0>) Supervisor {<0.211.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.212.0>, {amqp_params_network,<<"guest">>,<<"guest">>,<<"/">>,"rabbit1-z100.hpbx.lxd",5672,2047,0,10,500,...}) at <0.213.0> exit with reason reached_max_restart_intensity in context shutdown
+19:00:13.740 [error] |0000000000|Undefined:Undefined(<0.214.0>) Supervisor {<0.214.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.215.0>, {amqp_params_network,<<"guest">>,<<"guest">>,<<"/">>,"rabbit1-z200.hpbx.lxd",5672,2047,0,10,500,...}) at <0.216.0> exit with reason socket_closed_unexpectedly in context child_terminated
+19:00:13.744 [error] |0000000000|Undefined:Undefined(<0.214.0>) Supervisor {<0.214.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.215.0>, {amqp_params_network,<<"guest">>,<<"guest">>,<<"/">>,"rabbit1-z200.hpbx.lxd",5672,2047,0,10,500,...}) at <0.216.0> exit with reason reached_max_restart_intensity in context shutdown
+19:00:13.684 [error] |0000000000|Undefined:Undefined(<0.216.0>) gen_server <0.216.0> terminated with reason: socket_closed_unexpectedly
+19:00:13.744 [error] |0000000000|Undefined:Undefined(<0.225.0>) gen_server <0.225.0> terminated with reason: {infrastructure_died,{writer,send_failed,badarg}}
+19:00:13.684 [error] |0000000000|Undefined:Undefined(<0.216.0>) CRASH REPORT Process <0.216.0> with 0 neighbours exited with reason: socket_closed_unexpectedly in gen_server:terminate/7 line 812
+19:00:13.745 [error] |0000000000|Undefined:Undefined(<0.225.0>) CRASH REPORT Process <0.225.0> with 0 neighbours exited with reason: {infrastructure_died,{writer,send_failed,badarg}} in gen_server:terminate/7 line 812
+19:00:13.684 [warning] |00000000000|kz_amqp_connections:370(<0.204.0>) connection <0.210.0> is no longer available
+19:00:13.687 [warning] |00000000000|kz_amqp_connections:370(<0.204.0>) connection <0.209.0> is no longer available
+19:00:13.690 [error] |0000000000|Undefined:Undefined(<0.211.0>) Supervisor {<0.211.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.212.0>, {amqp_params_network,<<"guest">>,<<"guest">>,<<"/">>,"rabbit1-z100.hpbx.lxd",5672,2047,0,10,500,...}) at <0.213.0> exit with reason socket_closed_unexpectedly in context child_terminated
+19:00:13.745 [error] |0000000000|Undefined:Undefined(<0.223.0>) Supervisor {<0.223.0>,amqp_channel_sup} had child channel started with amqp_channel:start_link(network, <0.213.0>, 1, <0.224.0>, {<<"client 10.112.75.72:49825 -> 10.112.75.18:5672">>,1}) at <0.225.0> exit with reason {infrastructure_died,{writer,send_failed,badarg}} in context child_terminated
+19:00:13.746 [error] |0000000000|Undefined:Undefined(<0.223.0>) Supervisor {<0.223.0>,amqp_channel_sup} had child channel started with amqp_channel:start_link(network, <0.213.0>, 1, <0.224.0>, {<<"client 10.112.75.72:49825 -> 10.112.75.18:5672">>,1}) at <0.225.0> exit with reason reached_max_restart_intensity in context shutdown
+19:00:13.693 [error] |0000000000|Undefined:Undefined(<0.211.0>) Supervisor {<0.211.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.212.0>, {amqp_params_network,<<"guest">>,<<"guest">>,<<"/">>,"rabbit1-z100.hpbx.lxd",5672,2047,0,10,500,...}) at <0.213.0> exit with reason reached_max_restart_intensity in context shutdown
+19:00:13.748 [error] |0000000000|Undefined:Undefined(<0.275.0>) gen_server <0.275.0> terminated with reason: {infrastructure_died,{writer,send_failed,badarg}}
+19:00:13.748 [error] |0000000000|Undefined:Undefined(<0.275.0>) CRASH REPORT Process <0.275.0> with 0 neighbours exited with reason: {infrastructure_died,{writer,send_failed,badarg}} in gen_server:terminate/7 line 812
+19:00:13.695 [error] |0000000000|Undefined:Undefined(<0.214.0>) Supervisor {<0.214.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.215.0>, {amqp_params_network,<<"guest">>,<<"guest">>,<<"/">>,"rabbit1-z200.hpbx.lxd",5672,2047,0,10,500,...}) at <0.216.0> exit with reason socket_closed_unexpectedly in context child_terminated
+19:00:13.755 [error] |0000000000|Undefined:Undefined(<0.273.0>) Supervisor {<0.273.0>,amqp_channel_sup} had child channel started with amqp_channel:start_link(network, <0.216.0>, 1, <0.274.0>, {<<"client 10.112.75.72:40733 -> 10.112.75.11:5672">>,1}) at <0.275.0> exit with reason {infrastructure_died,{writer,send_failed,badarg}} in context child_terminated
+19:00:13.703 [error] |0000000000|Undefined:Undefined(<0.214.0>) Supervisor {<0.214.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.215.0>, {amqp_params_network,<<"guest">>,<<"guest">>,<<"/">>,"rabbit1-z200.hpbx.lxd",5672,2047,0,10,500,...}) at <0.216.0> exit with reason reached_max_restart_intensity in context shutdown
+19:00:13.763 [error] |0000000000|Undefined:Undefined(<0.273.0>) Supervisor {<0.273.0>,amqp_channel_sup} had child channel started with amqp_channel:start_link(network, <0.216.0>, 1, <0.274.0>, {<<"client 10.112.75.72:40733 -> 10.112.75.11:5672">>,1}) at <0.275.0> exit with reason reached_max_restart_intensity in context shutdown
+19:00:13.704 [error] |0000000000|Undefined:Undefined(<0.225.0>) gen_server <0.225.0> terminated with reason: {infrastructure_died,{writer,send_failed,badarg}}
+19:00:13.707 [error] |0000000000|Undefined:Undefined(<0.225.0>) CRASH REPORT Process <0.225.0> with 0 neighbours exited with reason: {infrastructure_died,{writer,send_failed,badarg}} in gen_server:terminate/7 line 812
+19:00:13.709 [error] |0000000000|Undefined:Undefined(<0.223.0>) Supervisor {<0.223.0>,amqp_channel_sup} had child channel started with amqp_channel:start_link(network, <0.213.0>, 1, <0.224.0>, {<<"client 10.112.75.72:54257 -> 10.112.75.18:5672">>,1}) at <0.225.0> exit with reason {infrastructure_died,{writer,send_failed,badarg}} in context child_terminated
+19:00:13.710 [error] |0000000000|Undefined:Undefined(<0.223.0>) Supervisor {<0.223.0>,amqp_channel_sup} had child channel started with amqp_channel:start_link(network, <0.213.0>, 1, <0.224.0>, {<<"client 10.112.75.72:54257 -> 10.112.75.18:5672">>,1}) at <0.225.0> exit with reason reached_max_restart_intensity in context shutdown
+19:00:13.724 [error] |0000000000|Undefined:Undefined(<0.275.0>) gen_server <0.275.0> terminated with reason: {infrastructure_died,{writer,send_failed,badarg}}
+19:00:13.724 [error] |0000000000|Undefined:Undefined(<0.275.0>) CRASH REPORT Process <0.275.0> with 0 neighbours exited with reason: {infrastructure_died,{writer,send_failed,badarg}} in gen_server:terminate/7 line 812
+19:00:13.730 [error] |0000000000|Undefined:Undefined(<0.273.0>) Supervisor {<0.273.0>,amqp_channel_sup} had child channel started with amqp_channel:start_link(network, <0.216.0>, 1, <0.274.0>, {<<"client 10.112.75.72:33987 -> 10.112.75.11:5672">>,1}) at <0.275.0> exit with reason {infrastructure_died,{writer,send_failed,badarg}} in context child_terminated
+19:00:13.736 [error] |0000000000|Undefined:Undefined(<0.273.0>) Supervisor {<0.273.0>,amqp_channel_sup} had child channel started with amqp_channel:start_link(network, <0.216.0>, 1, <0.274.0>, {<<"client 10.112.75.72:33987 -> 10.112.75.11:5672">>,1}) at <0.275.0> exit with reason reached_max_restart_intensity in context shutdown
+19:00:13.875 [error] |f59f3049-3d81-48b1-872c-7d0a9d7e0f29|kz_util:97(<0.1239.0>) stacktrace: 
+19:00:13.876 [error] |f59f3049-3d81-48b1-872c-7d0a9d7e0f29|kz_util:106(<0.1239.0>) st: proplists:get_value at 226
+19:00:13.877 [error] |f59f3049-3d81-48b1-872c-7d0a9d7e0f29|kz_util:107(<0.1239.0>) args: port
+19:00:13.877 [error] |f59f3049-3d81-48b1-872c-7d0a9d7e0f29|kz_util:107(<0.1239.0>) args: {error,no_scheme}
+19:00:13.878 [error] |f59f3049-3d81-48b1-872c-7d0a9d7e0f29|kz_util:107(<0.1239.0>) args: undefined
+19:00:13.878 [error] |f59f3049-3d81-48b1-872c-7d0a9d7e0f29|kz_util:104(<0.1239.0>) st: amqp_uri:remove_credentials/1 at (35)
+19:00:13.878 [error] |f59f3049-3d81-48b1-872c-7d0a9d7e0f29|kz_util:104(<0.1239.0>) st: kz_nodes:normalize_amqp_uri/1 at (931)
+19:00:13.878 [error] |f59f3049-3d81-48b1-872c-7d0a9d7e0f29|kz_util:104(<0.1239.0>) st: kz_nodes:maybe_add_zone/2 at (1227)
+19:00:13.878 [error] |f59f3049-3d81-48b1-872c-7d0a9d7e0f29|kz_util:104(<0.1239.0>) st: kz_nodes:handle_cast/2 at (771)
+19:00:13.880 [error] |f59f3049-3d81-48b1-872c-7d0a9d7e0f29|kz_util:104(<0.1239.0>) st: gen_listener:handle_module_cast/2 at (1324)
+19:00:13.880 [error] |f59f3049-3d81-48b1-872c-7d0a9d7e0f29|kz_util:104(<0.1239.0>) st: gen_server:try_dispatch/4 at (601)
+19:00:13.880 [error] |f59f3049-3d81-48b1-872c-7d0a9d7e0f29|kz_util:104(<0.1239.0>) st: gen_server:handle_msg/5 at (667)
+19:00:13.884 [error] |0000000000|Undefined:Undefined(<0.1239.0>) gen_server kz_nodes terminated with reason: function_clause
+19:00:13.981 [warning] |0000000000|kz_endpoint_recording:159(<0.1829.0>) we're not consuming any events
+19:00:14.008 [error] |0000000000|gen_server:812(<0.1239.0>) CRASH REPORT Process kz_nodes with 0 neighbours exited with reason: no function clause matching gen_server:terminate/7 line 812
+19:00:14.012 [error] |0000000000|Undefined:Undefined(<0.783.0>) Supervisor kazoo_globals_sup had child kz_nodes started with kz_nodes:start_link() at <0.1239.0> exit with reason function_clause in context child_terminated
+19:00:13.902 [warning] |0000000000|kz_endpoint_recording:159(<0.1808.0>) we're not consuming any events
+19:00:14.322 [notice] |0000000000|waveguide_responder:124(<0.3524.0>) kazoo telemetry grace period has 6 days remaining
+19:01:13.694 [notice] |0000000000|waveguide_responder:65(<0.1249.0>) shutting down waveguide_responder
+19:06:39.061 [notice] |sup_db9c@kazoo1-z100.hpbx.lxd|sup:98(<0.5869.0>) sup: kapps_controller list_apps 
+19:06:39.061 [notice] |sup_db9c@kazoo1-z100.hpbx.lxd|sup:100(<0.5869.0>) sup result: [webhooks,trunkstore,teletype,tasks,stepswitch,reorder,registrar,pivot,omnipresence,milliwatt,media_mgr,hangups,fax,crossbar,conference,cdr,callflow,blackhole,sysconf]
+19:07:29.990 [notice] |sup_f1b9@kazoo1-z100.hpbx.lxd|sup:98(<0.5995.0>) sup: kapps_controller list_apps 
+19:07:29.991 [notice] |sup_f1b9@kazoo1-z100.hpbx.lxd|sup:100(<0.5995.0>) sup result: [webhooks,trunkstore,teletype,tasks,stepswitch,reorder,registrar,pivot,omnipresence,milliwatt,media_mgr,hangups,fax,crossbar,conference,cdr,callflow,blackhole,sysconf]
