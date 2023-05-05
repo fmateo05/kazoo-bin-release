@@ -1,8 +1,0 @@
-{application,erlang_localtime,
-             [{description,[]},
-              {applications,[kernel,stdlib]},
-              {vsn,"1.0"},
-              {registered,[]},
-              {env,[]},
-              {applications,[]},
-              {modules, ['ibuild','localtime','localtime_dst']}]}.

@@ -1,7 +1,0 @@
-{application,bear,
-             [{description,[]},
-              {vsn,"git"},
-              {registered,[]},
-              {applications,[kernel,stdlib]},
-              {env,[]},
-              {modules,[bear]}]}.
